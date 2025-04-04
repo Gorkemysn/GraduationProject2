@@ -10,10 +10,14 @@ public class EnemyDamage : MonoBehaviour
     [SerializeField] private int damage;
     [SerializeField] private BoxCollider2D boxCollider;
     private float cooldownTimer = Mathf.Infinity;
+    private Animator anim;
     private Health playerHealth;
+    private EnemyPatrol enemyPatrol;
 
     private void Awake()
     {
+        anim = GetComponent<Animator>();
+        enemyPatrol = GetComponentInParent<EnemyPatrol>();
     }
 
     private void Update()
@@ -25,9 +29,14 @@ public class EnemyDamage : MonoBehaviour
             if (cooldownTimer >= attackCooldown)
             {
                 cooldownTimer = 0;
+                anim.SetTrigger("enemyAttack");
             }
         }
 
+        if (enemyPatrol != null)
+        {
+            enemyPatrol.enabled = !PlayerInSight();
+        }
     }
 
     private bool PlayerInSight()

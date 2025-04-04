@@ -19,7 +19,6 @@ public class PlayerAttack : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         playerMovement = GetComponent<PlayerMovement>();
-
     }
 
     private void Update()
