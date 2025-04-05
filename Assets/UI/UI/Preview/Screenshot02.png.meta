@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bce980eb54967954b96f781f73456848
+guid: 96c4436711c8cd747b2478af13a47ac8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BarRed_0
+      name: Screenshot02_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 61
-        height: 12
+        x: 535
+        y: 424
+        width: 418
+        height: 378
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4aeab4d758f57974ba722891b8be7e95
-      internalID: -220949067
+      spriteID: 8ca783bb1a598e247820c1d9950d438e
+      internalID: -1575646701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BarRed_1
+      name: Screenshot02_1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 2
-        width: 61
-        height: 12
+        x: 957
+        y: 265
+        width: 434
+        height: 557
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,113 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d38a8c64e8cc05844b25abd7eeba4884
-      internalID: 300577021
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BarRed_2
-      rect:
-        serializedVersion: 2
-        x: 130
-        y: 2
-        width: 61
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78202deb3d6d267488581321bf955747
-      internalID: 1365111579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BarRed_3
-      rect:
-        serializedVersion: 2
-        x: 194
-        y: 2
-        width: 61
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db36b4db2cd96f34e9bf69412c9604ea
-      internalID: 650598735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BarRed_4
-      rect:
-        serializedVersion: 2
-        x: 258
-        y: 2
-        width: 61
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9043bf7647bb9e4428874d1ef6a51792
-      internalID: -1421787732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BarRed_5
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 2
-        width: 61
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 175257df26b95df47aa6ca491bd53032
-      internalID: -2133295147
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BarRed_6
-      rect:
-        serializedVersion: 2
-        x: 386
-        y: 2
-        width: 61
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5fa3a202e3077947b110b8180590191
-      internalID: 1901870336
+      spriteID: 4a954d7acf718fe449c1c83c85c6631b
+      internalID: -722713804
       vertices: []
       indices: 
       edges: []
@@ -267,13 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BarRed_0: -220949067
-      BarRed_1: 300577021
-      BarRed_2: 1365111579
-      BarRed_3: 650598735
-      BarRed_4: -1421787732
-      BarRed_5: -2133295147
-      BarRed_6: 1901870336
+      Screenshot02_0: -1575646701
+      Screenshot02_1: -722713804
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

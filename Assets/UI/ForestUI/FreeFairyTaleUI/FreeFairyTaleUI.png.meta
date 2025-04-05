@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3a445812cfe418f42bff39496c8149c3
+guid: 3ed95d94f30272c49ac44ca46c31835d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MediavelFree_0
+      name: FreeFairyTaleUI_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 35
-        width: 71
-        height: 92
+        x: 1
+        y: 196
+        width: 78
+        height: 26
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a43b60f4967e414f9d367ea5e5b2c60
-      internalID: -1306180109
+      spriteID: 09803463049edb84aa7d7ae08b445304
+      internalID: -1806735734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_1
+      name: FreeFairyTaleUI_1
       rect:
         serializedVersion: 2
-        x: 81
-        y: 113
+        x: 1
+        y: 226
+        width: 78
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f9f61428548fb4b9096325cf438b5f
+      internalID: 1888175262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 197
         width: 14
-        height: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2c3d5cfcb5137b4eb1d97272c195c60
-      internalID: -566002357
+      spriteID: 415883a5eac6c2341b9f956b19c9d07f
+      internalID: 459944934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_2
+      name: FreeFairyTaleUI_3
       rect:
         serializedVersion: 2
-        x: 97
-        y: 113
+        x: 121
+        y: 197
         width: 14
-        height: 13
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d84d741ec3e744cb1d28eaf967402b
-      internalID: 1819682052
+      spriteID: 13517daacb2dbf24590658c7d3bb2816
+      internalID: 187040069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_3
+      name: FreeFairyTaleUI_4
       rect:
         serializedVersion: 2
-        x: 113
-        y: 113
-        width: 14
-        height: 14
+        x: 151
+        y: 211
+        width: 19
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64db0e9c38852e845851b6919c971043
-      internalID: -981238923
+      spriteID: 2f1883e6ded965f408752602fde3bc88
+      internalID: 1228615776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_4
+      name: FreeFairyTaleUI_5
       rect:
         serializedVersion: 2
-        x: 129
-        y: 113
-        width: 14
-        height: 13
+        x: 183
+        y: 208
+        width: 22
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,1363 +229,145 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3473507596b09794c946ac2c114d1387
-      internalID: -187089741
+      spriteID: 517ecb01328e54f41b000372bf094c47
+      internalID: 635682820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_5
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 113
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3245ef7cedcc4e84ba75cf6bb425d163
-      internalID: 982380381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_6
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 113
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b739a71122661e41b805d30e8254ad6
-      internalID: 1109603191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_7
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 113
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 278be76a0d0503b44bc9d03766357c74
-      internalID: -1161026616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_8
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 113
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 183a7d7f6790bd3499d88e43cdd14982
-      internalID: -1588536782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_9
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 100
-        width: 11
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb7f457dc79d83d428a3939b6ea5f4b6
-      internalID: -14977685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_10
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 100
-        width: 11
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 695e9e3a3cb3a984e893f40a02af372a
-      internalID: -1288005397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_11
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 98
-        width: 12
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80e3b2005ee08aa498f7e1485b55a713
-      internalID: -2013191403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_12
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 97
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 264cd0bc083691e40804ed5835e17176
-      internalID: -1205367975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_13
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 97
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 997c3cc84f51f49478c14f1499ea5af2
-      internalID: -1910833109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_14
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 97
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b394cdb2efd29f748a91441deb7ef60a
-      internalID: 1295347807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_15
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 97
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbc16f2277564ba4d99341b88cc9dd0c
-      internalID: 2050736327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_16
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 97
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70bca5112e893324fb988e0b9dd83a48
-      internalID: 1239385035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_17
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 97
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b839a1c7087590d419578d151db5319c
-      internalID: 1615561083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_18
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 97
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e3706db18786994bb3cfbb594d1664d
-      internalID: -76216554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_19
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 97
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec5aff324ee0c7242873da17db251c77
-      internalID: -1831798667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_20
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdc8bff151c82004abf05b281bf4b0e2
-      internalID: 1329826025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_21
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 81
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1defd07082afac14facc00607f2096ad
-      internalID: -977712655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_22
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4882c3a890a3474e91500a6d07d7bba
-      internalID: -573679215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_23
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 81
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90209bc495ada494cbb673695b693f0b
-      internalID: -1954283851
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_24
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16100f84d7f80fc49818c8162d834613
-      internalID: 2091410391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_25
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 81
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cee52da7d88eb84d8cc430507fbe4af
-      internalID: 1833178648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_26
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 933dcb904b570fd46b31fe482bf650ff
-      internalID: 1396524445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_27
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 81
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ade697ad53519144f88c643f78ae21ed
-      internalID: 1052924387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_28
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 67
-        width: 12
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6908eabbe078870458d58d18e42810f4
-      internalID: 473341727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_29
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 65
-        width: 32
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66b0985a74099e641950a38591f19bf7
-      internalID: -1023307667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_30
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 65
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f642e755fd5bdf74a8b7fbd6baa24333
-      internalID: -2048269787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_31
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 65
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b01e275369fd2244b68e662f6b0b6f6
-      internalID: -176420375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_32
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 65
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d710bdbba7debf04aae5a1459d1c09df
-      internalID: 1603658704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_33
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 65
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3ccdb5861f16754f995c7518a36b5c4
-      internalID: -1447222463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_34
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 65
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b11f7c0b1ffd26448b44cb30729d1b95
-      internalID: 668917809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_35
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 65
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae52d256d94384a47af837cc448e6620
-      internalID: -842845696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_36
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 65
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04b67af977858fa4a8741db7362ec9c7
-      internalID: 1744673070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_37
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 65
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8403e15e7ecd1949baa431428434bfa
-      internalID: -2082792993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_38
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 51
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17f7c9898cbeb5548a98f9d5ced583ea
-      internalID: 1545581289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_39
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 51
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b43e68663803f54ba588a41000ca3dd
-      internalID: -500943724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_40
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 50
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f13eb0fd63eaa564194d67ba500734dc
-      internalID: -770546123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_41
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 50
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 451ec364108d38e45855e02462014826
-      internalID: -850508910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_42
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 51
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d27ca21f2214a414487b9de06df0da67
-      internalID: 622349753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_43
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 51
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4d5d59f11a3ab140942b5cfdde0cf64
-      internalID: 1658136818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_44
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 50
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de34b37f90d087b4f94bb299d9f00c69
-      internalID: -331627890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_45
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 50
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e68cb5340d7ac9f4989157aa0bcb206a
-      internalID: 390087275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_46
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 53
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d01ddb77bceb3394b8f799a1fe9006c3
-      internalID: 1341076050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_47
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 54
-        width: 7
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fc6e07fc19eeac4c96b0a591fbe0698
-      internalID: -1098989638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_48
-      rect:
-        serializedVersion: 2
-        x: 244
-        y: 52
-        width: 6
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04d94e7218633384fbf6a58e89d9ffee
-      internalID: 1747250386
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_49
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 35
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e47de5cec1259a4b97fd34372a43dda
-      internalID: 550032139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_50
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 35
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a88674f11bccc541861c08052143a56
-      internalID: 391571362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_51
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 36
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b725a6a5cdb17234596e3f2d93e89f3b
-      internalID: -1942669357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_52
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 36
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1a277036562c3c4abde5405c0721777
-      internalID: -1402480582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_53
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 35
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a3324a8f1046134c8351d8a4ce675bc
-      internalID: -770801888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_54
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 35
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30d1097b9e174f943a3d722376c6b213
-      internalID: 473428662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_55
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 36
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f015409be96d6614da5e7ca56a72b932
-      internalID: -219875422
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_56
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 36
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95d8db51ad6da4948801eb1ec4dfabfb
-      internalID: -160296365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_57
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 37
-        width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61cc8cdbc4aaa2c448a6dd8b8dbe4943
-      internalID: 271468814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_58
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 37
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a5efc74bb26a5c4284f227918a7749e
-      internalID: -2030296841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_59
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 36
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 33543281e5b23f2498f4c9c7ce326ffc
-      internalID: 492844384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_60
-      rect:
-        serializedVersion: 2
-        x: 2
-        y: 18
-        width: 61
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d91e6d2b2eead04da9ef46c6b485e14
-      internalID: -38528247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_61
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 19
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 624f2b4d6b08c6c469d8db0ba314a4f8
-      internalID: 348444972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_62
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 19
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7cfababc8fc8c347a1f26cab2dafd1b
-      internalID: 1906512091
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_63
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 18
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67b8f6db92bd93b479a00eb05fdc7e4c
-      internalID: 1444693561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_64
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 18
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3cd56fcaba4488843886ff0d413309ff
-      internalID: 115801031
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_65
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 19
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d6cb15bfcfa04e418a998435cdfd098
-      internalID: -1672509851
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_66
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 19
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11c38f7854c83024799faad2cb75fdc4
-      internalID: 328950495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_67
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 18
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cf3bfb24f44cd444b1f622e634be025
-      internalID: 780549779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_68
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 18
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c6932bd8e375fa4fa5cd5d684a8b7b8
-      internalID: 50296755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_69
+      name: FreeFairyTaleUI_6
       rect:
         serializedVersion: 2
         x: 213
-        y: 5
-        width: 25
+        y: 212
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ffc97529c15264fb8324ff77086df6
+      internalID: -1316572320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_7
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 212
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3460e209973db56428df1929869eb1d6
+      internalID: -1985414180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_8
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 228
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007e02dc1dc5b7a4bbd208b9a127021f
+      internalID: 1934350708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_9
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 195
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f5cd7404c99a54397cbb1788dcc9ad
+      internalID: 275882647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_10
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 228
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910b12a9c17b35743aa95ae1c08f577c
+      internalID: 276303330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 162
+        width: 90
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66bc34621c864334790db5a4fe917371
+      internalID: 714821195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_12
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 162
+        width: 90
         height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1573,20 +376,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cf8d7ce03d0dee4fa2ebc1276e515a7
-      internalID: -1409841511
+      spriteID: 6308eb1d322d8ce4f99fbf77c69b2ceb
+      internalID: -1497059134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_70
+      name: FreeFairyTaleUI_13
       rect:
         serializedVersion: 2
-        x: 243
-        y: 19
+        x: 200
+        y: 167
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55c73ca1005ab74e8da9a4ebb76e634
+      internalID: 103944734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 163
         width: 11
-        height: 10
+        height: 23
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1594,20 +418,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cb629b20277ff64d9090fe8a5f2ac12
-      internalID: 1398217823
+      spriteID: 5ae655e98be164349b3de99bb64e9e3e
+      internalID: 580354535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_71
+      name: FreeFairyTaleUI_15
       rect:
         serializedVersion: 2
-        x: 22
-        y: 3
-        width: 4
-        height: 8
+        x: 3
+        y: 131
+        width: 90
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1615,62 +439,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75e17d65a98a48841817e60d13c8b163
-      internalID: 758866365
+      spriteID: 91698f6d471a7a54baba6cd546d913cf
+      internalID: -27451718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_72
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 3
-        width: 4
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ddf38acfcf1b0284f81e2b465418f014
-      internalID: -34334861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_73
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 3
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b149fe0947817c74b9f9e87ad9e3fa88
-      internalID: -1937029447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_74
+      name: FreeFairyTaleUI_16
       rect:
         serializedVersion: 2
         x: 100
-        y: 3
-        width: 8
-        height: 9
+        y: 131
+        width: 90
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1678,20 +460,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42a6ebdbf90a58e4997f7dbca2c2e87a
-      internalID: 1122668020
+      spriteID: 007893e07dd07f24087ca8c20ce81750
+      internalID: -404986193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_75
+      name: FreeFairyTaleUI_17
       rect:
         serializedVersion: 2
-        x: 117
-        y: 4
-        width: 8
-        height: 9
+        x: 198
+        y: 80
+        width: 53
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1699,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95748a55764b0d74c81c69877e6f0c21
-      internalID: -1130884839
+      spriteID: 68ced284232876e4095a9109a0353d62
+      internalID: -211990618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_76
+      name: FreeFairyTaleUI_18
       rect:
         serializedVersion: 2
-        x: 131
-        y: 4
-        width: 8
-        height: 9
+        x: 1
+        y: 113
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1720,20 +502,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5afb55935622d854d88256ca1cad4682
-      internalID: 201369252
+      spriteID: 9ef27faf2560cab4a992874a8ca24c0f
+      internalID: -1262309627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_77
+      name: FreeFairyTaleUI_19
       rect:
         serializedVersion: 2
-        x: 148
-        y: 3
-        width: 8
-        height: 9
+        x: 17
+        y: 113
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1741,20 +523,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bda307608cb6c7440bfcc03a523d244d
-      internalID: 992401210
+      spriteID: 84750e7f2260efd4ca5f55d5a90f5998
+      internalID: 416507980
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_78
+      name: FreeFairyTaleUI_20
       rect:
         serializedVersion: 2
-        x: 164
-        y: 3
-        width: 8
-        height: 9
+        x: 33
+        y: 113
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1762,20 +544,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b76eefd1f7cf09e4495bbe069d1966fb
-      internalID: -609857635
+      spriteID: 0a793e58967e7584d805cf28403b956b
+      internalID: -2054816420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_79
+      name: FreeFairyTaleUI_21
       rect:
         serializedVersion: 2
-        x: 181
-        y: 4
-        width: 8
-        height: 9
+        x: 49
+        y: 113
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1783,20 +565,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c01eebe69e71ef94ea7affac9ee844ba
-      internalID: -362355398
+      spriteID: 1f95649d01bd3404aa228d85bf26947f
+      internalID: 243064316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_80
+      name: FreeFairyTaleUI_22
       rect:
         serializedVersion: 2
-        x: 195
-        y: 4
-        width: 8
-        height: 9
+        x: 65
+        y: 113
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1804,20 +586,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91f1df2ba1a363645819536a48059d5d
-      internalID: 10760922
+      spriteID: 0fc6612b7a07c3d4ebdae09560dc56dd
+      internalID: -1666887913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_81
+      name: FreeFairyTaleUI_23
       rect:
         serializedVersion: 2
-        x: 213
-        y: 4
-        width: 7
-        height: 9
+        x: 81
+        y: 113
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1825,20 +607,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f266079b5149b044aae6e94e1f14d996
-      internalID: -934687691
+      spriteID: 3d3906ec5ae3fe6449e589394052348b
+      internalID: 1054093538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_82
+      name: FreeFairyTaleUI_24
       rect:
         serializedVersion: 2
-        x: 246
-        y: 4
-        width: 4
-        height: 8
+        x: 97
+        y: 113
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1846,8 +628,1373 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66bb84fedaf45324bb277ed660f5be77
-      internalID: 1916441578
+      spriteID: f2c5c53a1facbc842b2bab6210ebad6c
+      internalID: -793845383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_25
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 113
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8ad182ccfe31c4e92e3cff2e4ca8af
+      internalID: 1514700355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691fcc6ea6f69424fa7b5ae5fb8aa8e1
+      internalID: -879435408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_27
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 97
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3c2051f136ef7478c85e2754c9286a
+      internalID: -500643557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_28
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4992d0cd9abd0854f92c55fceb2755ec
+      internalID: 1887209440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_29
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 97
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006bd856bcaf8d44288a36eec3ba3141
+      internalID: 674557525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_30
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7acc664607ee444f9e32c54de612d6f
+      internalID: -471109921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_31
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 97
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d49d90c9a544047a326e855cdda9b2
+      internalID: -531502867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_32
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d70e356dd41ef324abe6de741bb212f4
+      internalID: 2146108567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_33
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 97
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892a3b3ec6ce4734f923a476656f5676
+      internalID: 2093180489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_34
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 64
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1998a8c67b146b458e93b6ec7a603db
+      internalID: -906647529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_35
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 62
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b19384214825b4c9eac89c28469104
+      internalID: -73439231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972f806cab756c1449d612bebb5680fb
+      internalID: -616924704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 81
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707827ed8da2a5449bd1053d0be79cb4
+      internalID: 64192054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_38
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9830a916ed4538409890966af3b4a84
+      internalID: 141527312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_39
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 81
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee5f14739c9c1446baa3c7640fab500
+      internalID: -837883512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_40
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108e71a059dc4094489b7472795a9f25
+      internalID: -15063525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_41
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 81
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1826dc74cc8c56e489e7a3bbac91df1e
+      internalID: 548640923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_42
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cc6dad57b111746a427a2dd81975e1
+      internalID: -606425046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_43
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 81
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9b54fc7a6e5734a8a30a8687e34a5a
+      internalID: 413095113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f9335e8a29e584292fcb0823dee35a
+      internalID: -1929250456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_45
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 65
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd61cb42210c9d48aed53ee5d552647
+      internalID: -543685251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_46
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaedcc16785141f44a6e32a53f1554e6
+      internalID: -2115809934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_47
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 65
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a6202403cd04448a49c9c7b5fa35c3
+      internalID: -1832437577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_48
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972a46c799c4f034aace55d832fe0610
+      internalID: -1917831091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_49
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d446255a70c83d340b7630f45e1dd3d3
+      internalID: 230515979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_50
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae7b7f3dcab7de45863939573330577
+      internalID: -1534988138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_51
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 65
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76803512974697943821e749dd6de691
+      internalID: 512614872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5bbf596adaa604fa9355543c207044
+      internalID: 1023703811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_53
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 49
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c197b97f85c44644b8853b375372f742
+      internalID: -1267369002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_54
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1689a9a43ffc344bf70ceb9e243015
+      internalID: 231063767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_55
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 49
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9f6cb18529d434a8313f5a7f6744ab
+      internalID: -2073083521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_56
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc703c745974c443b89b3808ba7a5ea
+      internalID: 1937052438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 49
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66b0ed5a84122b41a49abe49cb58b50
+      internalID: 564884717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_58
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8db6c70a4193f49a569c626d88b734
+      internalID: 141313795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_59
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 49
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bee9b4ff0c5f7548b1f83137a7465c6
+      internalID: 1392973421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 40
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa921241574edc4ab1abd433daaf191
+      internalID: -967365850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 40
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04dea62c0d2fdef41ba3a6be44a3020c
+      internalID: -1408133719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_62
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 40
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b162ba298bdc4474e982539f41f3450f
+      internalID: 1966227829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_63
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c369cb678b48941a9d3275e27744e4
+      internalID: 2067008480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_64
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1bc3f29ab65604fac446a7cf46bddb
+      internalID: -1867836198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_65
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1794e4bef17314b4189e0794558f0ce4
+      internalID: 1661603114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_66
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b996dd5f187b8498c0d934c383f084
+      internalID: 1589309654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_67
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9791c411201fa4ca7d115c2a122a6a
+      internalID: -265886752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_68
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139b79e204f957d43b261dbaaac6293a
+      internalID: 1304921352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_69
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fffbf2807db89948a45323ebd513c5c
+      internalID: 256695399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_70
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 33
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b6ca87f884f434e8bd036b6ed0ad1f
+      internalID: 1261401403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220b6069652a86443b1e4215674c3cd7
+      internalID: -2098640651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_72
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a633f9dcc753644f84ce78f88fea532
+      internalID: -1426383815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_73
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398fee2656f24ca4aa451f538f96c781
+      internalID: -704865736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_74
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418cd193a5671544f9aec3b54c19f61a
+      internalID: -323088447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_75
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afdf10bbea3a3f4dbfddfeb424ee978
+      internalID: -1251544005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_76
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2e0e0b5bb20214e902ed7b7bb72dfe
+      internalID: -1142241889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_77
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7e550b9949022438158d8b25899609
+      internalID: -789610944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_78
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 17
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462106739c28f5d449b1856ec65cda91
+      internalID: 1316856485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_79
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 8
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa892b4b12f3d04ba19b649e5308ff3
+      internalID: -1011425545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 8
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bbc2ddf14c1ca4ebd5ef1cfe4e247e
+      internalID: -912358804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_81
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b90336ffd8c4046ab5e2acb6e86f54
+      internalID: 1107226532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_82
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa8a5a0b7057124e8ecc256fa94a70e
+      internalID: -1683486932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_83
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b664744204353c4e806db5033c2db1c
+      internalID: -530330464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_84
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd544d29ad515634ea85ccd1acdea504
+      internalID: -619543713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_85
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedfb9e7dc0aca549911c6bab78664da
+      internalID: -2099714062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_86
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7b272ef7a3fae4ab733d78f02920c5
+      internalID: 44215948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_87
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770ea9f88fd080b47a4ec3fa40731b76
+      internalID: -72722380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_88
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b2bda12e19e35c4daa0cdfb0d66a91d
+      internalID: 260932345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FreeFairyTaleUI_89
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bc240e66ac8af4f9a1635bdb63a95f
+      internalID: 80912284
       vertices: []
       indices: 
       edges: []
@@ -1863,89 +2010,96 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MediavelFree_0: -1306180109
-      MediavelFree_1: -566002357
-      MediavelFree_10: -1288005397
-      MediavelFree_11: -2013191403
-      MediavelFree_12: -1205367975
-      MediavelFree_13: -1910833109
-      MediavelFree_14: 1295347807
-      MediavelFree_15: 2050736327
-      MediavelFree_16: 1239385035
-      MediavelFree_17: 1615561083
-      MediavelFree_18: -76216554
-      MediavelFree_19: -1831798667
-      MediavelFree_2: 1819682052
-      MediavelFree_20: 1329826025
-      MediavelFree_21: -977712655
-      MediavelFree_22: -573679215
-      MediavelFree_23: -1954283851
-      MediavelFree_24: 2091410391
-      MediavelFree_25: 1833178648
-      MediavelFree_26: 1396524445
-      MediavelFree_27: 1052924387
-      MediavelFree_28: 473341727
-      MediavelFree_29: -1023307667
-      MediavelFree_3: -981238923
-      MediavelFree_30: -2048269787
-      MediavelFree_31: -176420375
-      MediavelFree_32: 1603658704
-      MediavelFree_33: -1447222463
-      MediavelFree_34: 668917809
-      MediavelFree_35: -842845696
-      MediavelFree_36: 1744673070
-      MediavelFree_37: -2082792993
-      MediavelFree_38: 1545581289
-      MediavelFree_39: -500943724
-      MediavelFree_4: -187089741
-      MediavelFree_40: -770546123
-      MediavelFree_41: -850508910
-      MediavelFree_42: 622349753
-      MediavelFree_43: 1658136818
-      MediavelFree_44: -331627890
-      MediavelFree_45: 390087275
-      MediavelFree_46: 1341076050
-      MediavelFree_47: -1098989638
-      MediavelFree_48: 1747250386
-      MediavelFree_49: 550032139
-      MediavelFree_5: 982380381
-      MediavelFree_50: 391571362
-      MediavelFree_51: -1942669357
-      MediavelFree_52: -1402480582
-      MediavelFree_53: -770801888
-      MediavelFree_54: 473428662
-      MediavelFree_55: -219875422
-      MediavelFree_56: -160296365
-      MediavelFree_57: 271468814
-      MediavelFree_58: -2030296841
-      MediavelFree_59: 492844384
-      MediavelFree_6: 1109603191
-      MediavelFree_60: -38528247
-      MediavelFree_61: 348444972
-      MediavelFree_62: 1906512091
-      MediavelFree_63: 1444693561
-      MediavelFree_64: 115801031
-      MediavelFree_65: -1672509851
-      MediavelFree_66: 328950495
-      MediavelFree_67: 780549779
-      MediavelFree_68: 50296755
-      MediavelFree_69: -1409841511
-      MediavelFree_7: -1161026616
-      MediavelFree_70: 1398217823
-      MediavelFree_71: 758866365
-      MediavelFree_72: -34334861
-      MediavelFree_73: -1937029447
-      MediavelFree_74: 1122668020
-      MediavelFree_75: -1130884839
-      MediavelFree_76: 201369252
-      MediavelFree_77: 992401210
-      MediavelFree_78: -609857635
-      MediavelFree_79: -362355398
-      MediavelFree_8: -1588536782
-      MediavelFree_80: 10760922
-      MediavelFree_81: -934687691
-      MediavelFree_82: 1916441578
-      MediavelFree_9: -14977685
+      FreeFairyTaleUI_0: -1806735734
+      FreeFairyTaleUI_1: 1888175262
+      FreeFairyTaleUI_10: 276303330
+      FreeFairyTaleUI_11: 714821195
+      FreeFairyTaleUI_12: -1497059134
+      FreeFairyTaleUI_13: 103944734
+      FreeFairyTaleUI_14: 580354535
+      FreeFairyTaleUI_15: -27451718
+      FreeFairyTaleUI_16: -404986193
+      FreeFairyTaleUI_17: -211990618
+      FreeFairyTaleUI_18: -1262309627
+      FreeFairyTaleUI_19: 416507980
+      FreeFairyTaleUI_2: 459944934
+      FreeFairyTaleUI_20: -2054816420
+      FreeFairyTaleUI_21: 243064316
+      FreeFairyTaleUI_22: -1666887913
+      FreeFairyTaleUI_23: 1054093538
+      FreeFairyTaleUI_24: -793845383
+      FreeFairyTaleUI_25: 1514700355
+      FreeFairyTaleUI_26: -879435408
+      FreeFairyTaleUI_27: -500643557
+      FreeFairyTaleUI_28: 1887209440
+      FreeFairyTaleUI_29: 674557525
+      FreeFairyTaleUI_3: 187040069
+      FreeFairyTaleUI_30: -471109921
+      FreeFairyTaleUI_31: -531502867
+      FreeFairyTaleUI_32: 2146108567
+      FreeFairyTaleUI_33: 2093180489
+      FreeFairyTaleUI_34: -906647529
+      FreeFairyTaleUI_35: -73439231
+      FreeFairyTaleUI_36: -616924704
+      FreeFairyTaleUI_37: 64192054
+      FreeFairyTaleUI_38: 141527312
+      FreeFairyTaleUI_39: -837883512
+      FreeFairyTaleUI_4: 1228615776
+      FreeFairyTaleUI_40: -15063525
+      FreeFairyTaleUI_41: 548640923
+      FreeFairyTaleUI_42: -606425046
+      FreeFairyTaleUI_43: 413095113
+      FreeFairyTaleUI_44: -1929250456
+      FreeFairyTaleUI_45: -543685251
+      FreeFairyTaleUI_46: -2115809934
+      FreeFairyTaleUI_47: -1832437577
+      FreeFairyTaleUI_48: -1917831091
+      FreeFairyTaleUI_49: 230515979
+      FreeFairyTaleUI_5: 635682820
+      FreeFairyTaleUI_50: -1534988138
+      FreeFairyTaleUI_51: 512614872
+      FreeFairyTaleUI_52: 1023703811
+      FreeFairyTaleUI_53: -1267369002
+      FreeFairyTaleUI_54: 231063767
+      FreeFairyTaleUI_55: -2073083521
+      FreeFairyTaleUI_56: 1937052438
+      FreeFairyTaleUI_57: 564884717
+      FreeFairyTaleUI_58: 141313795
+      FreeFairyTaleUI_59: 1392973421
+      FreeFairyTaleUI_6: -1316572320
+      FreeFairyTaleUI_60: -967365850
+      FreeFairyTaleUI_61: -1408133719
+      FreeFairyTaleUI_62: 1966227829
+      FreeFairyTaleUI_63: 2067008480
+      FreeFairyTaleUI_64: -1867836198
+      FreeFairyTaleUI_65: 1661603114
+      FreeFairyTaleUI_66: 1589309654
+      FreeFairyTaleUI_67: -265886752
+      FreeFairyTaleUI_68: 1304921352
+      FreeFairyTaleUI_69: 256695399
+      FreeFairyTaleUI_7: -1985414180
+      FreeFairyTaleUI_70: 1261401403
+      FreeFairyTaleUI_71: -2098640651
+      FreeFairyTaleUI_72: -1426383815
+      FreeFairyTaleUI_73: -704865736
+      FreeFairyTaleUI_74: -323088447
+      FreeFairyTaleUI_75: -1251544005
+      FreeFairyTaleUI_76: -1142241889
+      FreeFairyTaleUI_77: -789610944
+      FreeFairyTaleUI_78: 1316856485
+      FreeFairyTaleUI_79: -1011425545
+      FreeFairyTaleUI_8: 1934350708
+      FreeFairyTaleUI_80: -912358804
+      FreeFairyTaleUI_81: 1107226532
+      FreeFairyTaleUI_82: -1683486932
+      FreeFairyTaleUI_83: -530330464
+      FreeFairyTaleUI_84: -619543713
+      FreeFairyTaleUI_85: -2099714062
+      FreeFairyTaleUI_86: 44215948
+      FreeFairyTaleUI_87: -72722380
+      FreeFairyTaleUI_88: 260932345
+      FreeFairyTaleUI_89: 80912284
+      FreeFairyTaleUI_9: 275882647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

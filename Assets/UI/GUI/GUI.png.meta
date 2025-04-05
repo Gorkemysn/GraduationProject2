@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3a445812cfe418f42bff39496c8149c3
+guid: bc768226e0050f84e9cecd7033b424b0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,978 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MediavelFree_0
+      name: GUI_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 35
-        width: 71
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a43b60f4967e414f9d367ea5e5b2c60
-      internalID: -1306180109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_1
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 113
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2c3d5cfcb5137b4eb1d97272c195c60
-      internalID: -566002357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_2
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 113
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5d84d741ec3e744cb1d28eaf967402b
-      internalID: 1819682052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_3
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 113
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64db0e9c38852e845851b6919c971043
-      internalID: -981238923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_4
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 113
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3473507596b09794c946ac2c114d1387
-      internalID: -187089741
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_5
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 113
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3245ef7cedcc4e84ba75cf6bb425d163
-      internalID: 982380381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_6
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 113
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b739a71122661e41b805d30e8254ad6
-      internalID: 1109603191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_7
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 113
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 278be76a0d0503b44bc9d03766357c74
-      internalID: -1161026616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_8
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 113
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 183a7d7f6790bd3499d88e43cdd14982
-      internalID: -1588536782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_9
-      rect:
-        serializedVersion: 2
-        x: 211
-        y: 100
-        width: 11
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb7f457dc79d83d428a3939b6ea5f4b6
-      internalID: -14977685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_10
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 100
-        width: 11
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 695e9e3a3cb3a984e893f40a02af372a
-      internalID: -1288005397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_11
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 98
-        width: 12
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80e3b2005ee08aa498f7e1485b55a713
-      internalID: -2013191403
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_12
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 97
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 264cd0bc083691e40804ed5835e17176
-      internalID: -1205367975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_13
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 97
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 997c3cc84f51f49478c14f1499ea5af2
-      internalID: -1910833109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_14
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 97
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b394cdb2efd29f748a91441deb7ef60a
-      internalID: 1295347807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_15
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 97
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbc16f2277564ba4d99341b88cc9dd0c
-      internalID: 2050736327
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_16
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 97
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70bca5112e893324fb988e0b9dd83a48
-      internalID: 1239385035
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_17
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 97
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b839a1c7087590d419578d151db5319c
-      internalID: 1615561083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_18
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 97
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e3706db18786994bb3cfbb594d1664d
-      internalID: -76216554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_19
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 97
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec5aff324ee0c7242873da17db251c77
-      internalID: -1831798667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_20
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bdc8bff151c82004abf05b281bf4b0e2
-      internalID: 1329826025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_21
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 81
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1defd07082afac14facc00607f2096ad
-      internalID: -977712655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_22
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a4882c3a890a3474e91500a6d07d7bba
-      internalID: -573679215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_23
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 81
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90209bc495ada494cbb673695b693f0b
-      internalID: -1954283851
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_24
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 16100f84d7f80fc49818c8162d834613
-      internalID: 2091410391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_25
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 81
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cee52da7d88eb84d8cc430507fbe4af
-      internalID: 1833178648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_26
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 81
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 933dcb904b570fd46b31fe482bf650ff
-      internalID: 1396524445
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_27
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 81
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ade697ad53519144f88c643f78ae21ed
-      internalID: 1052924387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_28
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 67
-        width: 12
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6908eabbe078870458d58d18e42810f4
-      internalID: 473341727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_29
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 65
-        width: 32
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66b0985a74099e641950a38591f19bf7
-      internalID: -1023307667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_30
-      rect:
-        serializedVersion: 2
-        x: 81
-        y: 65
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f642e755fd5bdf74a8b7fbd6baa24333
-      internalID: -2048269787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_31
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 65
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b01e275369fd2244b68e662f6b0b6f6
-      internalID: -176420375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_32
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 65
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d710bdbba7debf04aae5a1459d1c09df
-      internalID: 1603658704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_33
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 65
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3ccdb5861f16754f995c7518a36b5c4
-      internalID: -1447222463
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_34
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 65
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b11f7c0b1ffd26448b44cb30729d1b95
-      internalID: 668917809
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_35
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 65
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae52d256d94384a47af837cc448e6620
-      internalID: -842845696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_36
-      rect:
-        serializedVersion: 2
-        x: 177
-        y: 65
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04b67af977858fa4a8741db7362ec9c7
-      internalID: 1744673070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_37
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 65
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8403e15e7ecd1949baa431428434bfa
-      internalID: -2082792993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_38
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 51
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17f7c9898cbeb5548a98f9d5ced583ea
-      internalID: 1545581289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_39
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 51
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b43e68663803f54ba588a41000ca3dd
-      internalID: -500943724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_40
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 50
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f13eb0fd63eaa564194d67ba500734dc
-      internalID: -770546123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_41
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 50
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 451ec364108d38e45855e02462014826
-      internalID: -850508910
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_42
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 51
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d27ca21f2214a414487b9de06df0da67
-      internalID: 622349753
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_43
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 51
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e4d5d59f11a3ab140942b5cfdde0cf64
-      internalID: 1658136818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_44
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 50
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de34b37f90d087b4f94bb299d9f00c69
-      internalID: -331627890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_45
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 50
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e68cb5340d7ac9f4989157aa0bcb206a
-      internalID: 390087275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_46
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 53
-        width: 7
+        x: 8
+        y: 293
+        width: 172
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1090,19 +124,145 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d01ddb77bceb3394b8f799a1fe9006c3
-      internalID: 1341076050
+      spriteID: 7465ae8442f11d042a7bbc83a9b9e4ba
+      internalID: -261069113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_47
+      name: GUI_1
       rect:
         serializedVersion: 2
-        x: 228
-        y: 54
-        width: 7
+        x: 72
+        y: 278
+        width: 50
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8997b5c851e935f409716d87a074041a
+      internalID: 1981015695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 277
+        width: 52
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48441a1b8a29f86428c91608b18371f9
+      internalID: 1481219597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 226
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d256b2fb165b624479fed8d9dc9632d3
+      internalID: -595714594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 243
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e289b55c32b754fba8f454594721b3
+      internalID: 1047111930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 244
+        width: 64
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43642f4854483214e8c2449265bf148f
+      internalID: -906786607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 247
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9495ad15312d15469250b5d6bd95234
+      internalID: 1806161710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_7
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 231
+        width: 6
         height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1111,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fc6e07fc19eeac4c96b0a591fbe0698
-      internalID: -1098989638
+      spriteID: 8aec6ebe15325ad4b8d9ec9ce4a4ae70
+      internalID: -674203656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_48
+      name: GUI_8
       rect:
         serializedVersion: 2
-        x: 244
-        y: 52
+        x: 69
+        y: 230
         width: 6
-        height: 8
+        height: 5
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1132,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04d94e7218633384fbf6a58e89d9ffee
-      internalID: 1747250386
+      spriteID: 1d50c38b1da6c264986370f6da6608cc
+      internalID: -1196066308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_49
+      name: GUI_9
       rect:
         serializedVersion: 2
         x: 84
-        y: 35
+        y: 230
         width: 8
-        height: 9
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1153,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e47de5cec1259a4b97fd34372a43dda
-      internalID: 550032139
+      spriteID: 91567b321cd4d114988f9855c3daa32a
+      internalID: 817428517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_50
+      name: GUI_10
       rect:
         serializedVersion: 2
         x: 100
-        y: 35
+        y: 227
         width: 8
-        height: 9
+        height: 10
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1174,20 +334,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a88674f11bccc541861c08052143a56
-      internalID: 391571362
+      spriteID: 85c1c70046a7fff4e95ef7cb2865d4da
+      internalID: -377455160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_51
+      name: GUI_11
       rect:
         serializedVersion: 2
-        x: 117
-        y: 36
+        x: 116
+        y: 230
         width: 8
-        height: 9
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1195,125 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b725a6a5cdb17234596e3f2d93e89f3b
-      internalID: -1942669357
+      spriteID: 68150110e3fbba14d97f872ea039b23d
+      internalID: 549923651
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_52
+      name: GUI_12
       rect:
         serializedVersion: 2
-        x: 131
-        y: 36
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1a277036562c3c4abde5405c0721777
-      internalID: -1402480582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_53
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 35
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3a3324a8f1046134c8351d8a4ce675bc
-      internalID: -770801888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_54
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 35
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30d1097b9e174f943a3d722376c6b213
-      internalID: 473428662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_55
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 36
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f015409be96d6614da5e7ca56a72b932
-      internalID: -219875422
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_56
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 36
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95d8db51ad6da4948801eb1ec4dfabfb
-      internalID: -160296365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_57
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 37
+        x: 133
+        y: 230
         width: 7
-        height: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1321,18 +376,102 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61cc8cdbc4aaa2c448a6dd8b8dbe4943
-      internalID: 271468814
+      spriteID: cec342bf40d06c54e9fe6d45336437ed
+      internalID: 11132541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_58
+      name: GUI_13
       rect:
         serializedVersion: 2
-        x: 228
-        y: 37
+        x: 145
+        y: 225
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73248316c4034c14bb0cbd6be1efce96
+      internalID: 1611346942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee00bf6fc227cc444929b0af97ee3132
+      internalID: -619256233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 209
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c290cc852cdc51a4b901cfebe95ec219
+      internalID: 1558183751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c531e22f388e5428c4b7c3058fd717
+      internalID: -1283041749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_17
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 214
         width: 8
         height: 7
       alignment: 0
@@ -1342,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a5efc74bb26a5c4284f227918a7749e
-      internalID: -2030296841
+      spriteID: 327d073c3c925404793c73ec2ec5a89f
+      internalID: -1599169115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_59
+      name: GUI_18
       rect:
         serializedVersion: 2
-        x: 242
-        y: 36
-        width: 11
-        height: 10
+        x: 70
+        y: 214
+        width: 4
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1363,19 +502,1363 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33543281e5b23f2498f4c9c7ce326ffc
-      internalID: 492844384
+      spriteID: 72122180e5113094bac77586350925a5
+      internalID: -1985965551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_60
+      name: GUI_19
       rect:
         serializedVersion: 2
-        x: 2
-        y: 18
-        width: 61
+        x: 81
+        y: 177
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf9614d8dcb3e747b718b814bdce5fa
+      internalID: 869512356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_20
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 215
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea5ba2ae522c504c84b152070cbeae2
+      internalID: -985161740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_21
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 209
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2149cddc316825c47926e1ed7734e884
+      internalID: -820431235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 209
+        width: 46
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405a621101e672343bb75d0d4392bfbc
+      internalID: -280091761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 165
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8ae7214260e684b99be1247c92251c
+      internalID: -20896047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 165
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7aeb46d18aae64292dd6533a0cc90e
+      internalID: 47299194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_25
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 193
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e1b36eeebb517459c85094598b060f
+      internalID: 1797953230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_26
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 193
+        width: 46
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28b01b9fe97de54bb76b5322063ed6e
+      internalID: 291330681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 165
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f8956f0e5af3f41a25a0dfa34d30ae
+      internalID: -548561294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 149
+        width: 122
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15eb07669c7c39468a500a02b101883
+      internalID: -665689066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_29
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 165
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25486b27f18dd004ba8e1d4c0c30f2c2
+      internalID: -1526693870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_30
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 177
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3930d99a070c66d41b5e037e03229e69
+      internalID: -1459729710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_31
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 161
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8320761321844438ec1758bbb91a7c
+      internalID: 528194572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_32
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 149
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5975658cbe2f594695d7a768c9c3d01
+      internalID: -2126272186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_33
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 149
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0f372a45b870248851eb6da434955b
+      internalID: 227085896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 149
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ddeeff5d138df4c84d634916ad7d93
+      internalID: 1209758347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_35
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 149
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf71c06ccaecce45a8b64f74f6a310e
+      internalID: 1278369033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_36
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 149
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b4101fce95ba14eb20f4ef9714f6c3
+      internalID: -2062758336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_37
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 149
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f94393b2af113459cdc23719c743df
+      internalID: -1838727391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_38
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 133
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9774115f655e6b4e826c03d43be6e60
+      internalID: 1567392043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_39
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 133
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f5b2572ecd6ec4894561ae0ab8dabf
+      internalID: 2146211616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_40
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 133
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a1450e6c76bd148919bd7840b1361f
+      internalID: -1368462040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_41
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 133
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b328527b57cf3b44a925d9c619abd384
+      internalID: 1439054249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_42
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 119
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898bdb9ce6407604fa4ee9ecbc387deb
+      internalID: 1348520694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 119
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c8982868fe0a146ade9d11cce35143
+      internalID: 1768532620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_44
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 134
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38fb8b9d97a8a546b49d82f3315795a
+      internalID: 1910831836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_45
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 119
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5edf9264f9f594093284d7846534db
+      internalID: 1224899040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_46
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 133
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01a7f628c1c1df4a8ae5fe930ac6f5e
+      internalID: -284716171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_47
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 133
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9a7a7379723aef4db2e7955d6a1c70d
+      internalID: -1572318502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_48
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 47
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e2fa7975d018845a89f6be1a682931
+      internalID: -1471329718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_49
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 117
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610720dd930bf3f40b1953c2137f0751
+      internalID: -105528578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_50
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 117
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7e6fad803cd524588e9976885f0f79
+      internalID: -829192234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_51
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 117
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ba45d8f39ae1f4881a54768e6f8e07
+      internalID: -1850381863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_52
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 83
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a76bc23eb586f14ca25f5d919d84cc9
+      internalID: -1505303336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_53
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdc3b18716799a4a92201d61b054b24
+      internalID: -649913673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_54
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 107
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530b7dee4764eda4d9792b6cd2194d5a
+      internalID: 126077121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_55
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 107
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aeeb7efc46906b438ace1bc26077725
+      internalID: 1148792352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_56
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6762befc08be1c84888338b0c1120596
+      internalID: -448137718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_57
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 107
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529c1976b1b4a5449947b86ba9057a1a
+      internalID: -891044939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_58
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 107
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c404dc3d356294d92ca9b190735ef0
+      internalID: -618848704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_59
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862203e396b732341b9617675470d120
+      internalID: 793404585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_60
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 107
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bcfd34fa64af014b90d11e560f77349
+      internalID: 926429235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_61
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 119
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98bd37bee5751584599b5d0a179e6cef
+      internalID: -1660660349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_62
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 95
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8317cf161362149b9814beaf4eab10
+      internalID: 1354599701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_63
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 107
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8626b33da9976d44994ba622f2f24c90
+      internalID: -304385736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_64
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 119
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4758898dbb22d848887ebd3732bc144
+      internalID: -906233172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_65
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 83
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254c8e32e5393d348998580dd2491412
+      internalID: 207881825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_66
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 119
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed0cbd3b0f61464a9173907a8ce88e1
+      internalID: -420758789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_67
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 107
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb4fac56419126489c08a50bb9d15f6
+      internalID: 653741376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_68
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 119
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cab9050de06a954f84fdeb19975d174
+      internalID: -510178537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_69
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 107
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832950be07e1ec24b82df17ba68d757f
+      internalID: -913087283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_70
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 107
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c20ecedf5d9e04d829dd410e9ffbaf
+      internalID: 1073164639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_71
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 119
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e36d468b5b4904ca4bc431122e630f
+      internalID: 1410486333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_72
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 107
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3651fadb9fe1f2a4485bda780ec3a8c2
+      internalID: -677759846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_73
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 119
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f02a52ec63033e4eba928e49e0f5c6f
+      internalID: 393736621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_74
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 119
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405260efe82b8b04888bf4237b3a88bd
+      internalID: -985752827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_75
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 83
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89998c4cc990c4e43bc6a21b89b416fe
+      internalID: 1263895587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_76
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 119
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a567d86b8d1ee4d85ed8f67ac192ba
+      internalID: -141347493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_77
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 119
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b4847504c9d3149b4bd9f3246be3ab
+      internalID: 2016145587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_78
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 119
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d98ce52603e2245a10bbe6191eca86
+      internalID: -672222566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_79
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 64
+        width: 62
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4278791bedbe91e4682561fbd0770f54
+      internalID: 274121529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_80
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 211683733a7e81240bc9049940f6364e
+      internalID: 1150048581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_81
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 54
+        width: 46
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289c52fb4c378354a85bb207b8338adf
+      internalID: 1515293527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_82
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6da1632e8fd26d45bfc213d9d897f97
+      internalID: -620535263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GUI_83
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 50
+        width: 44
         height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1384,20 +1867,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d91e6d2b2eead04da9ef46c6b485e14
-      internalID: -38528247
+      spriteID: cb619f0154812a544860311bc9570eb6
+      internalID: -719304607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_61
+      name: GUI_84
       rect:
         serializedVersion: 2
-        x: 84
-        y: 19
-        width: 8
-        height: 9
+        x: 129
+        y: 49
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1405,20 +1888,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 624f2b4d6b08c6c469d8db0ba314a4f8
-      internalID: 348444972
+      spriteID: c8c55e95a656f884da44512ab08eb73d
+      internalID: 111821500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_62
+      name: GUI_85
       rect:
         serializedVersion: 2
-        x: 100
-        y: 19
-        width: 8
-        height: 9
+        x: 2
+        y: 20
+        width: 77
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1426,20 +1909,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7cfababc8fc8c347a1f26cab2dafd1b
-      internalID: 1906512091
+      spriteID: a6fc95a200c81804fbf7ab51f36790ab
+      internalID: -1721391554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_63
+      name: GUI_86
       rect:
         serializedVersion: 2
-        x: 117
-        y: 18
-        width: 8
-        height: 9
+        x: 81
+        y: 33
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1447,20 +1930,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67b8f6db92bd93b479a00eb05fdc7e4c
-      internalID: 1444693561
+      spriteID: 0ad560975a867244287e372013277352
+      internalID: -807821226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_64
+      name: GUI_87
       rect:
         serializedVersion: 2
-        x: 131
-        y: 18
-        width: 8
-        height: 9
+        x: 97
+        y: 33
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1468,20 +1951,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cd56fcaba4488843886ff0d413309ff
-      internalID: 115801031
+      spriteID: c6848f37db8763d4989d2545f0ca2605
+      internalID: -117162245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_65
+      name: GUI_88
       rect:
         serializedVersion: 2
-        x: 148
-        y: 19
-        width: 8
-        height: 9
+        x: 112
+        y: 0
+        width: 80
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1489,20 +1972,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d6cb15bfcfa04e418a998435cdfd098
-      internalID: -1672509851
+      spriteID: 79279fad6e7db2444aa0789e2b4e54b0
+      internalID: 2036730331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_66
+      name: GUI_89
       rect:
         serializedVersion: 2
-        x: 164
-        y: 19
-        width: 8
-        height: 9
+        x: 81
+        y: 17
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1510,20 +1993,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11c38f7854c83024799faad2cb75fdc4
-      internalID: 328950495
+      spriteID: 12f36cc980f4e684bab4e9b679bdec38
+      internalID: 1644110293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_67
+      name: GUI_90
       rect:
         serializedVersion: 2
-        x: 181
-        y: 18
-        width: 8
-        height: 9
+        x: 97
+        y: 17
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1531,20 +2014,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cf3bfb24f44cd444b1f622e634be025
-      internalID: 780549779
+      spriteID: 4d6f5483e6752414e86bc8d87036a0f3
+      internalID: -101249733
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_68
+      name: GUI_91
       rect:
         serializedVersion: 2
-        x: 195
-        y: 18
-        width: 8
-        height: 9
+        x: 3
+        y: 2
+        width: 58
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1552,20 +2035,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c6932bd8e375fa4fa5cd5d684a8b7b8
-      internalID: 50296755
+      spriteID: dd21e2d2fada01c41aa3e985e642a3e3
+      internalID: 370155869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MediavelFree_69
+      name: GUI_92
       rect:
         serializedVersion: 2
-        x: 213
-        y: 5
-        width: 25
-        height: 25
+        x: 65
+        y: 1
+        width: 46
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1573,281 +2056,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cf8d7ce03d0dee4fa2ebc1276e515a7
-      internalID: -1409841511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_70
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 19
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4cb629b20277ff64d9090fe8a5f2ac12
-      internalID: 1398217823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_71
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 3
-        width: 4
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75e17d65a98a48841817e60d13c8b163
-      internalID: 758866365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_72
-      rect:
-        serializedVersion: 2
-        x: 53
-        y: 3
-        width: 4
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ddf38acfcf1b0284f81e2b465418f014
-      internalID: -34334861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_73
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 3
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b149fe0947817c74b9f9e87ad9e3fa88
-      internalID: -1937029447
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_74
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 3
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42a6ebdbf90a58e4997f7dbca2c2e87a
-      internalID: 1122668020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_75
-      rect:
-        serializedVersion: 2
-        x: 117
-        y: 4
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95748a55764b0d74c81c69877e6f0c21
-      internalID: -1130884839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_76
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 4
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5afb55935622d854d88256ca1cad4682
-      internalID: 201369252
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_77
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 3
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bda307608cb6c7440bfcc03a523d244d
-      internalID: 992401210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_78
-      rect:
-        serializedVersion: 2
-        x: 164
-        y: 3
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b76eefd1f7cf09e4495bbe069d1966fb
-      internalID: -609857635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_79
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 4
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c01eebe69e71ef94ea7affac9ee844ba
-      internalID: -362355398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_80
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 4
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 91f1df2ba1a363645819536a48059d5d
-      internalID: 10760922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_81
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 4
-        width: 7
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f266079b5149b044aae6e94e1f14d996
-      internalID: -934687691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MediavelFree_82
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 4
-        width: 4
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66bb84fedaf45324bb277ed660f5be77
-      internalID: 1916441578
+      spriteID: 30fd238ad9090304da57888af610f281
+      internalID: -1226563268
       vertices: []
       indices: 
       edges: []
@@ -1863,89 +2073,99 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MediavelFree_0: -1306180109
-      MediavelFree_1: -566002357
-      MediavelFree_10: -1288005397
-      MediavelFree_11: -2013191403
-      MediavelFree_12: -1205367975
-      MediavelFree_13: -1910833109
-      MediavelFree_14: 1295347807
-      MediavelFree_15: 2050736327
-      MediavelFree_16: 1239385035
-      MediavelFree_17: 1615561083
-      MediavelFree_18: -76216554
-      MediavelFree_19: -1831798667
-      MediavelFree_2: 1819682052
-      MediavelFree_20: 1329826025
-      MediavelFree_21: -977712655
-      MediavelFree_22: -573679215
-      MediavelFree_23: -1954283851
-      MediavelFree_24: 2091410391
-      MediavelFree_25: 1833178648
-      MediavelFree_26: 1396524445
-      MediavelFree_27: 1052924387
-      MediavelFree_28: 473341727
-      MediavelFree_29: -1023307667
-      MediavelFree_3: -981238923
-      MediavelFree_30: -2048269787
-      MediavelFree_31: -176420375
-      MediavelFree_32: 1603658704
-      MediavelFree_33: -1447222463
-      MediavelFree_34: 668917809
-      MediavelFree_35: -842845696
-      MediavelFree_36: 1744673070
-      MediavelFree_37: -2082792993
-      MediavelFree_38: 1545581289
-      MediavelFree_39: -500943724
-      MediavelFree_4: -187089741
-      MediavelFree_40: -770546123
-      MediavelFree_41: -850508910
-      MediavelFree_42: 622349753
-      MediavelFree_43: 1658136818
-      MediavelFree_44: -331627890
-      MediavelFree_45: 390087275
-      MediavelFree_46: 1341076050
-      MediavelFree_47: -1098989638
-      MediavelFree_48: 1747250386
-      MediavelFree_49: 550032139
-      MediavelFree_5: 982380381
-      MediavelFree_50: 391571362
-      MediavelFree_51: -1942669357
-      MediavelFree_52: -1402480582
-      MediavelFree_53: -770801888
-      MediavelFree_54: 473428662
-      MediavelFree_55: -219875422
-      MediavelFree_56: -160296365
-      MediavelFree_57: 271468814
-      MediavelFree_58: -2030296841
-      MediavelFree_59: 492844384
-      MediavelFree_6: 1109603191
-      MediavelFree_60: -38528247
-      MediavelFree_61: 348444972
-      MediavelFree_62: 1906512091
-      MediavelFree_63: 1444693561
-      MediavelFree_64: 115801031
-      MediavelFree_65: -1672509851
-      MediavelFree_66: 328950495
-      MediavelFree_67: 780549779
-      MediavelFree_68: 50296755
-      MediavelFree_69: -1409841511
-      MediavelFree_7: -1161026616
-      MediavelFree_70: 1398217823
-      MediavelFree_71: 758866365
-      MediavelFree_72: -34334861
-      MediavelFree_73: -1937029447
-      MediavelFree_74: 1122668020
-      MediavelFree_75: -1130884839
-      MediavelFree_76: 201369252
-      MediavelFree_77: 992401210
-      MediavelFree_78: -609857635
-      MediavelFree_79: -362355398
-      MediavelFree_8: -1588536782
-      MediavelFree_80: 10760922
-      MediavelFree_81: -934687691
-      MediavelFree_82: 1916441578
-      MediavelFree_9: -14977685
+      GUI_0: -261069113
+      GUI_1: 1981015695
+      GUI_10: -377455160
+      GUI_11: 549923651
+      GUI_12: 11132541
+      GUI_13: 1611346942
+      GUI_14: -619256233
+      GUI_15: 1558183751
+      GUI_16: -1283041749
+      GUI_17: -1599169115
+      GUI_18: -1985965551
+      GUI_19: 869512356
+      GUI_2: 1481219597
+      GUI_20: -985161740
+      GUI_21: -820431235
+      GUI_22: -280091761
+      GUI_23: -20896047
+      GUI_24: 47299194
+      GUI_25: 1797953230
+      GUI_26: 291330681
+      GUI_27: -548561294
+      GUI_28: -665689066
+      GUI_29: -1526693870
+      GUI_3: -595714594
+      GUI_30: -1459729710
+      GUI_31: 528194572
+      GUI_32: -2126272186
+      GUI_33: 227085896
+      GUI_34: 1209758347
+      GUI_35: 1278369033
+      GUI_36: -2062758336
+      GUI_37: -1838727391
+      GUI_38: 1567392043
+      GUI_39: 2146211616
+      GUI_4: 1047111930
+      GUI_40: -1368462040
+      GUI_41: 1439054249
+      GUI_42: 1348520694
+      GUI_43: 1768532620
+      GUI_44: 1910831836
+      GUI_45: 1224899040
+      GUI_46: -284716171
+      GUI_47: -1572318502
+      GUI_48: -1471329718
+      GUI_49: -105528578
+      GUI_5: -906786607
+      GUI_50: -829192234
+      GUI_51: -1850381863
+      GUI_52: -1505303336
+      GUI_53: -649913673
+      GUI_54: 126077121
+      GUI_55: 1148792352
+      GUI_56: -448137718
+      GUI_57: -891044939
+      GUI_58: -618848704
+      GUI_59: 793404585
+      GUI_6: 1806161710
+      GUI_60: 926429235
+      GUI_61: -1660660349
+      GUI_62: 1354599701
+      GUI_63: -304385736
+      GUI_64: -906233172
+      GUI_65: 207881825
+      GUI_66: -420758789
+      GUI_67: 653741376
+      GUI_68: -510178537
+      GUI_69: -913087283
+      GUI_7: -674203656
+      GUI_70: 1073164639
+      GUI_71: 1410486333
+      GUI_72: -677759846
+      GUI_73: 393736621
+      GUI_74: -985752827
+      GUI_75: 1263895587
+      GUI_76: -141347493
+      GUI_77: 2016145587
+      GUI_78: -672222566
+      GUI_79: 274121529
+      GUI_8: -1196066308
+      GUI_80: 1150048581
+      GUI_81: 1515293527
+      GUI_82: -620535263
+      GUI_83: -719304607
+      GUI_84: 111821500
+      GUI_85: -1721391554
+      GUI_86: -807821226
+      GUI_87: -117162245
+      GUI_88: 2036730331
+      GUI_89: 1644110293
+      GUI_9: 817428517
+      GUI_90: -101249733
+      GUI_91: 370155869
+      GUI_92: -1226563268
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
