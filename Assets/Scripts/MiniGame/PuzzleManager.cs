@@ -5,31 +5,34 @@ using System.Collections.Generic;
 
 public class PuzzleManager : MonoBehaviour
 {
-    public int gridSize = 3; // 3x3 = 9 parça
+    public int gridSize = 3;
     public Sprite puzzleImage;
     public GameObject puzzlePiecePrefab;
     public Transform puzzleParent;
     public TextMeshProUGUI solvedText;
     public GameObject puzzlePanel;
     public Button shuffleButton;
-    public Button closeButton; //  Close butonu referansý
+    public Button closeButton;
 
-    public TextMeshProUGUI moveCounterText; // Inspector'dan baðla
+    public TextMeshProUGUI moveCounterText;
     private int moveCount = 0;
-
 
     private List<PuzzlePiece> pieces = new List<PuzzlePiece>();
     private Vector2Int emptySlot;
     private bool isShuffled = false;
+    private bool rewardGiven = false;
+
+    [Header("Puzzle Reward Settings")]
+    [SerializeField] private int rewardSouls = 50; // Inspector üzerinden ayarlanabilir hale getirildi
 
     void Start()
     {
         solvedText.gameObject.SetActive(false);
-        closeButton.gameObject.SetActive(false); //  Baþta gizli
+        closeButton.gameObject.SetActive(false);
         shuffleButton.gameObject.SetActive(true);
 
         shuffleButton.onClick.AddListener(ShufflePuzzle);
-        closeButton.onClick.AddListener(ClosePuzzle); //  Butona týklama dinleyici
+        closeButton.onClick.AddListener(ClosePuzzle);
         GeneratePuzzle();
     }
 
@@ -86,13 +89,15 @@ public class PuzzleManager : MonoBehaviour
             piece.MoveTo(emptySlot);
             emptySlot = prev;
 
-            moveCount++; //  Hamle sayýsýný artýr
-            UpdateMoveCounter(); //  Ekraný güncelle
+            moveCount++;
+            UpdateMoveCounter();
 
-            if (IsSolved())
+            if (IsSolved() && !rewardGiven)
             {
                 solvedText.gameObject.SetActive(true);
                 closeButton.gameObject.SetActive(true);
+                SoulManager.instance.AddSouls(rewardSouls); // Artýk inspector'dan ayarlanýyor
+                rewardGiven = true;
             }
         }
     }
@@ -104,8 +109,6 @@ public class PuzzleManager : MonoBehaviour
             moveCounterText.text = "" + moveCount;
         }
     }
-
-
 
     bool IsSolved()
     {
@@ -126,6 +129,6 @@ public class PuzzleManager : MonoBehaviour
         shuffleButton.gameObject.SetActive(true);
         moveCount = 0;
         UpdateMoveCounter();
-
+        rewardGiven = false;
     }
 }

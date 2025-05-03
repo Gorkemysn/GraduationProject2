@@ -10,6 +10,8 @@ public class EnemyHealth : MonoBehaviour
     private Animator anim;
     private bool dead;
 
+    public int soulReward = 5; // Kazandýracaðý soul
+
     private void Awake()
     {
         currentHealth = maxHealth;
@@ -35,11 +37,13 @@ public class EnemyHealth : MonoBehaviour
             StartCoroutine(DestroyAfterDelay());
         }
     }
+
     IEnumerator DestroyAfterDelay()
     {
-        yield return new WaitForSeconds(destroyDelay);
+        // SoulManager’a bildir
+        SoulManager.instance.AddSouls(soulReward);
 
+        yield return new WaitForSeconds(destroyDelay);
         Destroy(gameObject);
     }
 }
-
