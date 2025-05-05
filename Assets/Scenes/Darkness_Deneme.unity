@@ -501,6 +501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 100
+  healthBar: {fileID: 0}
 --- !u!114 &567050591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -768,6 +769,7 @@ MonoBehaviour:
   maxHealth: 15
   destroyDelay: 1
   currentHealth: 15
+  soulReward: 5
 --- !u!61 &981945702
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4959,6 +4961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   currentHealth: 100
+  healthBar: {fileID: 0}
 --- !u!114 &1519191098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5224,9 +5227,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLight: {fileID: 1519191105}
-  lightDuration: 5
-  minLightSize: 3
-  maxLightSize: 6.5
+  lightDuration: 10
+  minLightSize: 3.5
+  maxLightSize: 10
 --- !u!1 &1701205594
 GameObject:
   m_ObjectHideFlags: 0

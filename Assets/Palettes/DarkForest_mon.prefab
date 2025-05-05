@@ -1692,6 +1692,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 14, y: -21, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 465
+      m_TileSpriteIndex: 465
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 16, y: -21, z: 0}
     second:
       serializedVersion: 2
@@ -6574,7 +6584,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 37f6fe97fbbe7104eb5f78d96ff54505, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 9bfbf0a672e8c47409fa27e3af273b02, type: 2}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 11400000, guid: 51cabd3c5d59bb143b8f04838701a4a1, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: dbcdedd38ace3a04b8aa40f267537052, type: 2}
@@ -7695,7 +7705,7 @@ Tilemap:
     m_Data: {fileID: 829182703, guid: 6a23b508abd49df48b72ee49cd47bf8a, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 508318212, guid: 6a23b508abd49df48b72ee49cd47bf8a, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 599842703, guid: 6a23b508abd49df48b72ee49cd47bf8a, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 953718865, guid: 6a23b508abd49df48b72ee49cd47bf8a, type: 3}
@@ -7886,7 +7896,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 740082562, guid: 6a23b508abd49df48b72ee49cd47bf8a, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 560
+  - m_RefCount: 561
     m_Data:
       e00: 1
       e01: 0
@@ -7905,7 +7915,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 560
+  - m_RefCount: 561
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -8025,7 +8035,7 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
---- !u!114 &2254000344400536366
+--- !u!114 &3438412168990815306
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
