@@ -488,7 +488,7 @@ GameObject:
   - component: {fileID: 85746517}
   - component: {fileID: 85746516}
   m_Layer: 0
-  m_Name: EnemyPatrolMedusa2
+  m_Name: EnemyPatrolSkeleton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -521,7 +521,7 @@ Transform:
   m_GameObject: {fileID: 85746515}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 141.11, y: -1.8, z: 0}
+  m_LocalPosition: {x: 141.11, y: -1.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6896,7 +6896,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 35
-      m_TileSpriteIndex: 7
+      m_TileSpriteIndex: 35
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -6906,7 +6906,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 34
-      m_TileSpriteIndex: 6
+      m_TileSpriteIndex: 34
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -7119,10 +7119,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 1
-    m_Data: {fileID: 2051588813, guid: 6a23b508abd49df48b72ee49cd47bf8a, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -1503608549, guid: 6a23b508abd49df48b72ee49cd47bf8a, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: -90650049, guid: 6a23b508abd49df48b72ee49cd47bf8a, type: 3}
   - m_RefCount: 2
@@ -7175,10 +7175,10 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 2051588813, guid: 6a23b508abd49df48b72ee49cd47bf8a, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -1503608549, guid: 6a23b508abd49df48b72ee49cd47bf8a, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 26
     m_Data:
@@ -13312,7 +13312,7 @@ Transform:
   m_GameObject: {fileID: 1407999166}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.75, y: -1.33, z: 0}
+  m_LocalPosition: {x: 136.4, y: -1.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13613,7 +13613,7 @@ GameObject:
   - component: {fileID: 1430518203}
   - component: {fileID: 1430518202}
   m_Layer: 8
-  m_Name: EnemyMedusa
+  m_Name: EnemySkeleton
   m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13629,7 +13629,7 @@ Animator:
   m_GameObject: {fileID: 1430518200}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 263f8b5673cbc6240a3b9b4e4709e599, type: 2}
+  m_Controller: {fileID: 9100000, guid: 50010d366bad81a4288dbf76b9665740, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -13722,14 +13722,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.7083333, y: 3.2083333}
+    oldSize: {x: 1.5, y: 4.1}
     newSize: {x: 4.0625, y: 4.8125}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.4402199, y: 3.3815227}
+  m_Size: {x: 2.4402199, y: 4.04}
   m_EdgeRadius: 0
 --- !u!212 &1430518206
 SpriteRenderer:
@@ -13772,7 +13772,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1021328914, guid: 8f4486510a7870541bda5bfb5941b5d8, type: 3}
+  m_Sprite: {fileID: 1279253934, guid: c1f6ac6b53f210d4e835337383c49152, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -18024,7 +18024,7 @@ GameObject:
   - component: {fileID: 1797488240}
   - component: {fileID: 1797488239}
   m_Layer: 0
-  m_Name: EnemyPatrolMedusa2 (1)
+  m_Name: EnemyPatrolMedusa2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
