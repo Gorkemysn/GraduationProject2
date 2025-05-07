@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] private float attack;
-    [SerializeField] private float playerDamage;
-    [SerializeField] private float playerDamage2;
+    [SerializeField] public float playerDamage;
+    [SerializeField] public float playerDamage2;
     private Animator anim;
     private PlayerMovement playerMovement;
     private float timer = Mathf.Infinity;

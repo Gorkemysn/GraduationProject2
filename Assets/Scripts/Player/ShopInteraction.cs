@@ -40,8 +40,16 @@ public class ShopInteraction : MonoBehaviour
         if (other.CompareTag("ShopTrigger"))
         {
             isNearShop = false;
-            upgradePanel.SetActive(false);
-            playerMovementScript.enabled = true; // Panel kapanýnca hareketi aç
+
+            if (upgradePanel != null)
+            {
+                upgradePanel.SetActive(false);
+            }
+
+            if (playerMovementScript != null)
+            {
+                playerMovementScript.enabled = true;
+            }
         }
     }
 }

@@ -4,7 +4,7 @@ using TMPro;
 public class SoulManager : MonoBehaviour
 {
     public static SoulManager instance;
-    public int soulCount = 0;
+    private int currentSoul = 0; // Altýn miktarý
     public TextMeshProUGUI soulText;
 
     private void Awake()
@@ -22,12 +22,17 @@ public class SoulManager : MonoBehaviour
 
     public void AddSouls(int amount)
     {
-        soulCount += amount;
+        currentSoul += amount;
         UpdateSoulUI();
     }
 
     private void UpdateSoulUI()
     {
-        soulText.text = "Souls: " + soulCount.ToString();
+        soulText.text = "Souls: " + CurrentSoul.ToString();
+    }
+
+    public int CurrentSoul
+    {
+        get { return currentSoul; }
     }
 }

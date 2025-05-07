@@ -679,7 +679,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -325, y: -100}
+  m_AnchoredPosition: {x: -310, y: -100}
   m_SizeDelta: {x: 150, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &126572639
@@ -791,6 +791,7 @@ GameObject:
   - component: {fileID: 129123379}
   - component: {fileID: 129123380}
   - component: {fileID: 129123377}
+  - component: {fileID: 129123381}
   m_Layer: 5
   m_Name: HealthSkill_1
   m_TagString: Untagged
@@ -839,7 +840,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.39215687}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
     m_PressedColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -861,7 +862,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 625748626}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 129123381}
+        m_TargetAssemblyTypeName: SkillButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!222 &129123379
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -883,14 +896,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1959797336, guid: 7446fa385ecc42b44a236d4024c560be, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -900,6 +913,27 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &129123381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129123375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef14c21746a9494429560c5c399acab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulCost: 10
+  healthIncrease: 10
+  damageIncrease: 0
+  damage2Increase: 0
+  nextSkills:
+  - {fileID: 842200655}
+  lockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  selectableColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
 --- !u!1 &130711653
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,7 +1153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69468006bef38bc48876a3a7d5bb7476, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  soulCount: 0
   soulText: {fileID: 325541625}
 --- !u!4 &251627418
 Transform:
@@ -1569,9 +1602,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1394501312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -306, y: -160}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -300, y: -485}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &293152690
@@ -2080,6 +2113,7 @@ GameObject:
   - component: {fileID: 364036066}
   - component: {fileID: 364036065}
   - component: {fileID: 364036064}
+  - component: {fileID: 364036067}
   m_Layer: 5
   m_Name: HealthSkill_1 (2)
   m_TagString: Untagged
@@ -2150,7 +2184,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 869539502}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 364036067}
+        m_TargetAssemblyTypeName: SkillButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &364036065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2164,14 +2210,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1959797336, guid: 7446fa385ecc42b44a236d4024c560be, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2189,6 +2235,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364036062}
   m_CullTransparentMesh: 1
+--- !u!114 &364036067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364036062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef14c21746a9494429560c5c399acab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulCost: 30
+  healthIncrease: 35
+  damageIncrease: 0
+  damage2Increase: 0
+  nextSkills: []
+  lockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  selectableColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
 --- !u!1 &368991298
 GameObject:
   m_ObjectHideFlags: 0
@@ -2285,8 +2351,8 @@ RectTransform:
   m_Children:
   - {fileID: 17635071}
   - {fileID: 1750598694}
-  - {fileID: 325541627}
   - {fileID: 1176028112}
+  - {fileID: 325541627}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2471,8 +2537,9 @@ GameObject:
   - component: {fileID: 405769555}
   - component: {fileID: 405769554}
   - component: {fileID: 405769553}
+  - component: {fileID: 405769556}
   m_Layer: 5
-  m_Name: HeavyDamageSkill_1 (5)
+  m_Name: HeavyDamageSkill_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2541,7 +2608,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1589177482}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 405769556}
+        m_TargetAssemblyTypeName: SkillButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &405769554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2555,15 +2634,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -1959797336, guid: 7446fa385ecc42b44a236d4024c560be, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -2580,6 +2659,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405769551}
   m_CullTransparentMesh: 1
+--- !u!114 &405769556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405769551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef14c21746a9494429560c5c399acab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulCost: 30
+  healthIncrease: 0
+  damageIncrease: 0
+  damage2Increase: 5
+  nextSkills: []
+  lockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  selectableColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
 --- !u!1 &430107754
 GameObject:
   m_ObjectHideFlags: 0
@@ -2676,7 +2775,7 @@ GameObject:
   - component: {fileID: 449220220}
   - component: {fileID: 449220219}
   m_Layer: 5
-  m_Name: HealthSkillText_1
+  m_Name: HeavySkillText_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2691,15 +2790,15 @@ RectTransform:
   m_GameObject: {fileID: 449220217}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 908856990}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -12.5}
+  m_SizeDelta: {x: 0, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &449220219
 MonoBehaviour:
@@ -2861,9 +2960,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1394501312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -306, y: 100}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -300, y: -225}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &480822356
@@ -3345,9 +3444,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1394501312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -306, y: -30}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -300, y: -355}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &548502080
@@ -4502,15 +4601,15 @@ RectTransform:
   m_GameObject: {fileID: 625748624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 129123376}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -15}
+  m_SizeDelta: {x: 0, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &625748626
 MonoBehaviour:
@@ -4621,7 +4720,7 @@ GameObject:
   - component: {fileID: 640365453}
   - component: {fileID: 640365452}
   m_Layer: 5
-  m_Name: HealthSkillText_1
+  m_Name: LightSkillText_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4636,15 +4735,15 @@ RectTransform:
   m_GameObject: {fileID: 640365450}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2038702727}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -12.5}
+  m_SizeDelta: {x: 0, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &640365452
 MonoBehaviour:
@@ -5166,7 +5265,7 @@ GameObject:
   - component: {fileID: 803825791}
   - component: {fileID: 803825790}
   m_Layer: 5
-  m_Name: HealthSkillText_1
+  m_Name: HeavySkillText_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5181,15 +5280,15 @@ RectTransform:
   m_GameObject: {fileID: 803825788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1263062332}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -12.5}
+  m_SizeDelta: {x: 0, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &803825790
 MonoBehaviour:
@@ -5384,6 +5483,7 @@ GameObject:
   - component: {fileID: 842200654}
   - component: {fileID: 842200653}
   - component: {fileID: 842200652}
+  - component: {fileID: 842200655}
   m_Layer: 5
   m_Name: HealthSkill_1 (1)
   m_TagString: Untagged
@@ -5454,7 +5554,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1794795907}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 842200655}
+        m_TargetAssemblyTypeName: SkillButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &842200653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5468,14 +5580,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1959797336, guid: 7446fa385ecc42b44a236d4024c560be, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5493,6 +5605,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842200650}
   m_CullTransparentMesh: 1
+--- !u!114 &842200655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842200650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef14c21746a9494429560c5c399acab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulCost: 20
+  healthIncrease: 20
+  damageIncrease: 0
+  damage2Increase: 0
+  nextSkills:
+  - {fileID: 364036067}
+  lockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  selectableColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
 --- !u!1 &844209627
 GameObject:
   m_ObjectHideFlags: 0
@@ -5819,7 +5952,7 @@ GameObject:
   - component: {fileID: 869539503}
   - component: {fileID: 869539502}
   m_Layer: 5
-  m_Name: HealthSkillText_1
+  m_Name: HealthSkillText_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5834,15 +5967,15 @@ RectTransform:
   m_GameObject: {fileID: 869539500}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 364036063}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -15}
+  m_SizeDelta: {x: 0, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &869539502
 MonoBehaviour:
@@ -5953,6 +6086,7 @@ GameObject:
   - component: {fileID: 870159808}
   - component: {fileID: 870159807}
   - component: {fileID: 870159806}
+  - component: {fileID: 870159809}
   m_Layer: 5
   m_Name: LightDamageSkill_1 (2)
   m_TagString: Untagged
@@ -6023,7 +6157,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1699952495}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 870159809}
+        m_TargetAssemblyTypeName: SkillButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &870159807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6037,14 +6183,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1959797336, guid: 7446fa385ecc42b44a236d4024c560be, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6062,6 +6208,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870159804}
   m_CullTransparentMesh: 1
+--- !u!114 &870159809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870159804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef14c21746a9494429560c5c399acab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulCost: 30
+  healthIncrease: 0
+  damageIncrease: 5
+  damage2Increase: 0
+  nextSkills: []
+  lockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  selectableColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
 --- !u!1 &879490820
 GameObject:
   m_ObjectHideFlags: 0
@@ -6094,9 +6260,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1394501312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 47, y: 100}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 75, y: -225}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &879490822
@@ -6572,8 +6738,9 @@ GameObject:
   - component: {fileID: 908856993}
   - component: {fileID: 908856992}
   - component: {fileID: 908856991}
+  - component: {fileID: 908856994}
   m_Layer: 5
-  m_Name: HeavyDamageSkill_1 (4)
+  m_Name: HeavyDamageSkill_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6642,7 +6809,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 449220219}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 908856994}
+        m_TargetAssemblyTypeName: SkillButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &908856992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6656,14 +6835,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1959797336, guid: 7446fa385ecc42b44a236d4024c560be, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6681,6 +6860,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 908856989}
   m_CullTransparentMesh: 1
+--- !u!114 &908856994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908856989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef14c21746a9494429560c5c399acab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulCost: 20
+  healthIncrease: 0
+  damageIncrease: 0
+  damage2Increase: 3
+  nextSkills:
+  - {fileID: 405769556}
+  lockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  selectableColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
 --- !u!1 &938621569
 GameObject:
   m_ObjectHideFlags: 0
@@ -8804,8 +9004,8 @@ Transform:
   m_GameObject: {fileID: 1124200889}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 194.74, y: 7.25, z: 0}
-  m_LocalScale: {x: 8, y: 8, z: 8}
+  m_LocalPosition: {x: 194.74, y: 6.93, z: 0}
+  m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 275717619}
@@ -8908,7 +9108,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: a29c023f27ad34e45852863a878d1984, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9853,8 +10053,9 @@ GameObject:
   - component: {fileID: 1263062335}
   - component: {fileID: 1263062334}
   - component: {fileID: 1263062333}
+  - component: {fileID: 1263062336}
   m_Layer: 5
-  m_Name: HeavyDamageSkill_1 (3)
+  m_Name: HeavyDamageSkill_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9901,7 +10102,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.39215687}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
     m_PressedColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -9923,7 +10124,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 803825790}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1263062336}
+        m_TargetAssemblyTypeName: SkillButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1263062334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9937,14 +10150,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1959797336, guid: 7446fa385ecc42b44a236d4024c560be, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9962,6 +10175,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1263062331}
   m_CullTransparentMesh: 1
+--- !u!114 &1263062336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263062331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef14c21746a9494429560c5c399acab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulCost: 10
+  healthIncrease: 0
+  damageIncrease: 0
+  damage2Increase: 2
+  nextSkills:
+  - {fileID: 908856994}
+  lockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  selectableColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
 --- !u!1 &1269305381
 GameObject:
   m_ObjectHideFlags: 0
@@ -10276,9 +10510,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1394501312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 545, y: -160}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 550, y: -485}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1367912948
@@ -13312,7 +13546,7 @@ Transform:
   m_GameObject: {fileID: 1407999166}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 136.4, y: -1.33, z: 0}
+  m_LocalPosition: {x: 192.1, y: 8.75, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13945,7 +14179,7 @@ GameObject:
   - component: {fileID: 1469296950}
   - component: {fileID: 1469296949}
   m_Layer: 5
-  m_Name: HealthSkillText_1
+  m_Name: LightSkillText_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13960,15 +14194,15 @@ RectTransform:
   m_GameObject: {fileID: 1469296947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 1522507760}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -12.5}
+  m_SizeDelta: {x: 0, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1469296949
 MonoBehaviour:
@@ -14284,6 +14518,7 @@ GameObject:
   - component: {fileID: 1522507763}
   - component: {fileID: 1522507762}
   - component: {fileID: 1522507761}
+  - component: {fileID: 1522507764}
   m_Layer: 5
   m_Name: LightDamageSkill_1 (1)
   m_TagString: Untagged
@@ -14354,7 +14589,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1469296949}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1522507764}
+        m_TargetAssemblyTypeName: SkillButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1522507762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14368,14 +14615,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1959797336, guid: 7446fa385ecc42b44a236d4024c560be, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14393,6 +14640,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1522507759}
   m_CullTransparentMesh: 1
+--- !u!114 &1522507764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1522507759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef14c21746a9494429560c5c399acab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulCost: 20
+  healthIncrease: 0
+  damageIncrease: 3
+  damage2Increase: 0
+  nextSkills:
+  - {fileID: 870159809}
+  lockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  selectableColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
 --- !u!1 &1588355020
 GameObject:
   m_ObjectHideFlags: 0
@@ -14436,7 +14704,7 @@ GameObject:
   - component: {fileID: 1589177483}
   - component: {fileID: 1589177482}
   m_Layer: 5
-  m_Name: HealthSkillText_1
+  m_Name: HeavySkillText_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14451,15 +14719,15 @@ RectTransform:
   m_GameObject: {fileID: 1589177480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 405769552}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -12.5}
+  m_SizeDelta: {x: 0, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1589177482
 MonoBehaviour:
@@ -16126,7 +16394,7 @@ GameObject:
   - component: {fileID: 1699952496}
   - component: {fileID: 1699952495}
   m_Layer: 5
-  m_Name: HealthSkillText_1
+  m_Name: LightSkillText_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16141,15 +16409,15 @@ RectTransform:
   m_GameObject: {fileID: 1699952493}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 870159805}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -12.5}
+  m_SizeDelta: {x: 0, y: -25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1699952495
 MonoBehaviour:
@@ -16731,7 +16999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f9f6b9f4d6b3f24d9556aea76456a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: 3
+  gridSize: 2
   puzzleImage: {fileID: 21300000, guid: fbc1269cf4b8c294cbfbbc486e7c584f, type: 3}
   puzzlePiecePrefab: {fileID: 3801482795016167308, guid: 5f7fc0f03dfb6944dadad79f75af79df, type: 3}
   puzzleParent: {fileID: 1435612240}
@@ -16836,9 +17104,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1394501312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 545, y: 100}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 550, y: -225}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1757000138
@@ -17891,7 +18159,7 @@ GameObject:
   - component: {fileID: 1794795908}
   - component: {fileID: 1794795907}
   m_Layer: 5
-  m_Name: HealthSkillText_1
+  m_Name: HealthSkillText_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17906,15 +18174,15 @@ RectTransform:
   m_GameObject: {fileID: 1794795905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 842200651}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -15}
+  m_SizeDelta: {x: 0, y: -30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1794795907
 MonoBehaviour:
@@ -18098,9 +18366,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1394501312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 47, y: -30}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 75, y: -355}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1830430711
@@ -18691,9 +18959,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1394501312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 545, y: -30}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 550, y: -355}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1942314425
@@ -19023,6 +19291,7 @@ GameObject:
   - component: {fileID: 2038702730}
   - component: {fileID: 2038702729}
   - component: {fileID: 2038702728}
+  - component: {fileID: 2038702731}
   m_Layer: 5
   m_Name: LightDamageSkill_1
   m_TagString: Untagged
@@ -19071,7 +19340,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 0.39215687}
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
     m_PressedColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -19093,7 +19362,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 640365452}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2038702731}
+        m_TargetAssemblyTypeName: SkillButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2038702729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19107,14 +19388,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -1959797336, guid: 7446fa385ecc42b44a236d4024c560be, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19132,6 +19413,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038702726}
   m_CullTransparentMesh: 1
+--- !u!114 &2038702731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038702726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef14c21746a9494429560c5c399acab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soulCost: 10
+  healthIncrease: 0
+  damageIncrease: 2
+  damage2Increase: 0
+  nextSkills:
+  - {fileID: 1522507764}
+  lockedColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  selectableColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
 --- !u!1 &2039025175
 GameObject:
   m_ObjectHideFlags: 0
@@ -19164,9 +19466,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1394501312}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 47, y: -160}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 75, y: -485}
   m_SizeDelta: {x: 100, y: 25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039025177
