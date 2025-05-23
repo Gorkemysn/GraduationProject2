@@ -12,31 +12,29 @@ public class DeathMenu : MonoBehaviour
 
     public void ShowDeathScreen()
     {
-        // Oyun zamanýný durdur
         Time.timeScale = 0f;
-        deathScreenUI.SetActive(true); // Ölüm ekranýný göster
-        Cursor.lockState = CursorLockMode.None; // Mouse'u serbest býrak
-        Cursor.visible = true; // Mouse'u görünür yap
+        deathScreenUI.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void HideDeathScreen()
     {
-        // Oyun zamanýný devam ettir
         Time.timeScale = 1f;
-        deathScreenUI.SetActive(false); // Ölüm ekranýný kapat
-        Cursor.lockState = CursorLockMode.Locked; // Mouse'u kilitle
-        Cursor.visible = false; // Mouse'u gizle
+        deathScreenUI.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     public void RestartGame()
     {
-        Time.timeScale = 1f; // Oyun zamanýný devam ettir
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Mevcut sahneyi yeniden yükle
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void BackToMenu()
     {
-        Time.timeScale = 1f; // Oyun zamanýný devam ettir
-        SceneManager.LoadScene("MainMenu"); // Ana menü sahnesine geri dön
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
     }
 }

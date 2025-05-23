@@ -22,8 +22,10 @@ public class PuzzleManager : MonoBehaviour
     private bool isShuffled = false;
     private bool rewardGiven = false;
 
+    public static bool IsPuzzleActive = false;
+
     [Header("Puzzle Reward Settings")]
-    [SerializeField] private int rewardSouls = 50; // Inspector üzerinden ayarlanabilir hale getirildi
+    [SerializeField] private int rewardSouls = 50;
 
     void Start()
     {
@@ -96,7 +98,7 @@ public class PuzzleManager : MonoBehaviour
             {
                 solvedText.gameObject.SetActive(true);
                 closeButton.gameObject.SetActive(true);
-                SoulManager.instance.AddSouls(rewardSouls); // Artýk inspector'dan ayarlanýyor
+                SoulManager.instance.AddSouls(rewardSouls);
                 rewardGiven = true;
             }
         }
@@ -122,13 +124,25 @@ public class PuzzleManager : MonoBehaviour
 
     void ClosePuzzle()
     {
-        Time.timeScale = 1f;
+        puzzlePanel.SetActive(false);
         solvedText.gameObject.SetActive(false);
         closeButton.gameObject.SetActive(false);
-        puzzlePanel.SetActive(false);
         shuffleButton.gameObject.SetActive(true);
         moveCount = 0;
         UpdateMoveCounter();
         rewardGiven = false;
+        isShuffled = false;
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        IsPuzzleActive = false;
+    }
+
+    public void OpenPuzzle()
+    {
+        puzzlePanel.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        IsPuzzleActive = true;
     }
 }

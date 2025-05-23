@@ -1,57 +1,57 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenuUI; // Pause menüsü UI'ýný temsil eder
+    public GameObject pauseMenuUI;
     private bool isPaused = false;
 
+    public static bool IsGamePausedGlobally = false;
 
     private void Update()
     {
-        // ESC tuþuna basýldýðýnda pause menüsünü aç/kapat
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-
-            if (isPaused)
-            {
+            if (pauseMenuUI.activeSelf)
                 ResumeGame();
-            }
-            else
-            {
+            else if (!DeathMenuActive() && !PuzzleManager.IsPuzzleActive)
                 PauseGame();
-            }
         }
+    }
+
+    private bool DeathMenuActive()
+    {
+        return Time.timeScale == 0f && Cursor.visible == true && !pauseMenuUI.activeSelf;
     }
 
     public void PauseGame()
     {
-        Time.timeScale = 0f; // Oyun zamanýný duraklat
-        pauseMenuUI.SetActive(true); // Pause menüsünü göster
+        Time.timeScale = 0f;
+        pauseMenuUI.SetActive(true);
         isPaused = true;
+        IsGamePausedGlobally = true;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
 
     public void ResumeGame()
     {
-        Time.timeScale = 1f; // Oyun zamanýný devam ettir
-        pauseMenuUI.SetActive(false); // Pause menüsünü kapat
+        Time.timeScale = 1f;
+        pauseMenuUI.SetActive(false);
         isPaused = false;
+        IsGamePausedGlobally = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
     }
 
     public void BackToMenu()
     {
-        Time.timeScale = 1f; // Oyun zamanýný devam ettir
-        SceneManager.LoadScene("MainMenu"); // Ana menü sahnesine geri dön
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
     }
 
     public bool IsGamePaused()
     {
-        return isPaused; // Oyun duraklatýldý mý?
+        return isPaused;
     }
 }

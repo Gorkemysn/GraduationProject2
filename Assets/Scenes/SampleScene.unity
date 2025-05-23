@@ -3330,11 +3330,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 17635071}
-  - {fileID: 1750598694}
-  - {fileID: 1176028112}
   - {fileID: 325541627}
   - {fileID: 1076195871}
   - {fileID: 1229580002}
+  - {fileID: 1750598694}
+  - {fileID: 1176028112}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -10462,7 +10462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c4ce6b4c50f571489ef0f64fc4abc22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puzzlePanel: {fileID: 1750598690}
+  puzzleManager: {fileID: 1750598691}
 --- !u!61 &1124200892
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19454,7 +19454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f9f6b9f4d6b3f24d9556aea76456a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gridSize: 2
+  gridSize: 3
   puzzleImage: {fileID: 21300000, guid: fbc1269cf4b8c294cbfbbc486e7c584f, type: 3}
   puzzlePiecePrefab: {fileID: 3801482795016167308, guid: 5f7fc0f03dfb6944dadad79f75af79df, type: 3}
   puzzleParent: {fileID: 1435612240}
