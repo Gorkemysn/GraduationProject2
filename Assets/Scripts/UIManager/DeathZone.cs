@@ -4,6 +4,7 @@ using System.Collections;
 
 public class DeathZone : MonoBehaviour
 {
+    public DeathMenu deathMenu;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -15,6 +16,13 @@ public class DeathZone : MonoBehaviour
     private IEnumerator LoadCurrentLevelWithDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (deathMenu != null)
+        {
+            deathMenu.ShowDeathScreen();
+        }
+        else
+        {
+            Debug.LogError("DeathMenu is not assigned in the Inspector.");
+        }
     }
 }

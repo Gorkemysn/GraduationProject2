@@ -9,6 +9,7 @@ public class Health : MonoBehaviour
     private Animator anim;
     private bool dead;
     public HealthBar healthBar;
+    public DeathMenu deathMenu;
 
     private void Awake()
     {
@@ -40,6 +41,14 @@ public class Health : MonoBehaviour
         GetComponent<PlayerMovement>().enabled = false;
         dead = true;
 
-        Invoke("ShowDeathMenu", 1.5f);
+        // Ölüm ekranýný göster
+        if (deathMenu != null)
+        {
+            deathMenu.ShowDeathScreen();
+        }
+        else
+        {
+            Debug.LogError("DeathMenu is not assigned in the Inspector.");
+        }
     }
 }
