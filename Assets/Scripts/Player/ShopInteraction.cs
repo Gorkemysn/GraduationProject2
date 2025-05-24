@@ -3,27 +3,29 @@ using UnityEngine;
 public class ShopInteraction : MonoBehaviour
 {
     public GameObject upgradePanel;
-    public PlayerMovement playerMovementScript; // Oyuncunun hareket scripti
+    public PlayerMovement playerMovementScript;
 
     private bool isNearShop = false;
 
     void Update()
     {
-        // Shop alanýndaysa ve E tuþuna bastýysa
         if (isNearShop && Input.GetKeyDown(KeyCode.E))
         {
             bool isActive = upgradePanel.activeSelf;
             upgradePanel.SetActive(!isActive);
 
-            // Panel açýldýysa hareketi engelle, kapandýysa tekrar aç
             playerMovementScript.enabled = !upgradePanel.activeSelf;
+
+            Cursor.visible = upgradePanel.activeSelf;
+            Cursor.lockState = upgradePanel.activeSelf ? CursorLockMode.None : CursorLockMode.Locked;
         }
 
-        // ESC ile paneli kapatma
         if (upgradePanel.activeSelf && Input.GetKeyDown(KeyCode.Escape))
         {
             upgradePanel.SetActive(false);
-            playerMovementScript.enabled = true; // Hareketi geri aç
+            playerMovementScript.enabled = true;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 
@@ -50,6 +52,9 @@ public class ShopInteraction : MonoBehaviour
             {
                 playerMovementScript.enabled = true;
             }
+
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
         }
     }
 }
