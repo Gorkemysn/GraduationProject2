@@ -138,6 +138,30 @@ public class PuzzleManager : MonoBehaviour
         IsPuzzleActive = false;
     }
 
+    
+    public void ClosePuzzleExternally()
+    {
+        puzzlePanel.SetActive(false);
+        solvedText.gameObject.SetActive(false);
+        closeButton.gameObject.SetActive(false);
+        shuffleButton.gameObject.SetActive(false); 
+        moveCount = 0;
+        UpdateMoveCounter();
+        rewardGiven = false;
+        isShuffled = false;
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        IsPuzzleActive = false;
+
+        // Parçalarý temizle
+        foreach (var p in pieces)
+        {
+            Destroy(p.gameObject);
+        }
+        pieces.Clear();
+    }
+
     public void OpenPuzzle()
     {
         puzzlePanel.SetActive(true);

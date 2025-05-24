@@ -4,14 +4,20 @@ public class PuzzleTrigger : MonoBehaviour
 {
     public PuzzleManager puzzleManager;
     private bool isPlayerNear = false;
+    private bool puzzleCompleted = false; 
 
     void Update()
     {
         if (isPlayerNear && Input.GetKeyDown(KeyCode.E))
         {
-            if (!PuzzleManager.IsPuzzleActive && !PauseMenu.IsGamePausedGlobally)
+            if (!PuzzleManager.IsPuzzleActive && !PauseMenu.IsGamePausedGlobally && !puzzleCompleted)
             {
                 puzzleManager.OpenPuzzle();
+            }
+            else if (PuzzleManager.IsPuzzleActive)
+            {
+                puzzleManager.ClosePuzzleExternally(); 
+                puzzleCompleted = true; 
             }
         }
     }
