@@ -23,15 +23,22 @@ public class EnemyPatrol : MonoBehaviour
 
     private void Awake()
     {
-        initScale = enemy.localScale;
+        if (enemy != null)
+            initScale = enemy.localScale;
     }
+
     private void OnDisable()
     {
-        anim.SetBool("moving", false);
+        if (anim != null)
+            anim.SetBool("moving", false);
     }
 
     private void Update()
     {
+        // Eðer enemy yoksa hiçbir þey yapma
+        if (enemy == null || leftEdge == null || rightEdge == null || anim == null)
+            return;
+
         if (movingLeft)
         {
             if (enemy.position.x >= leftEdge.position.x)
@@ -50,7 +57,9 @@ public class EnemyPatrol : MonoBehaviour
 
     private void DirectionChange()
     {
-        anim.SetBool("moving", false);
+        if (anim != null)
+            anim.SetBool("moving", false);
+
         idleTimer += Time.deltaTime;
 
         if (idleTimer > idleDuration)
@@ -60,14 +69,19 @@ public class EnemyPatrol : MonoBehaviour
     private void MoveInDirection(int _direction)
     {
         idleTimer = 0;
-        anim.SetBool("moving", true);
 
-        //Make enemy face direction
-        enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction,
-            initScale.y, initScale.z);
+        if (anim != null)
+            anim.SetBool("moving", true);
 
-        //Move in that direction
-        enemy.position = new Vector3(enemy.position.x + Time.deltaTime * _direction * speed,
-            enemy.position.y, enemy.position.z);
+        if (enemy != null)
+        {
+            //Make enemy face direction
+            enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction,
+                initScale.y, initScale.z);
+
+            //Move in that direction
+            enemy.position = new Vector3(enemy.position.x + Time.deltaTime * _direction * speed,
+                enemy.position.y, enemy.position.z);
+        }
     }
 }
