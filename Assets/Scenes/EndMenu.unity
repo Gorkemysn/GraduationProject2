@@ -333,7 +333,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -80, y: 200}
+  m_AnchoredPosition: {x: -87, y: 138}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &265821305
@@ -356,10 +356,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: GAME NAME
+  m_text: THE END
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f394478f3f9821d43801a459ac498cd7, type: 2}
-  m_sharedMaterial: {fileID: 4015157564312504980, guid: f394478f3f9821d43801a459ac498cd7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a0955235dfd576a44bf795f7976bb31d, type: 2}
+  m_sharedMaterial: {fileID: 5417876022356286432, guid: a0955235dfd576a44bf795f7976bb31d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -599,7 +599,7 @@ RectTransform:
   m_GameObject: {fileID: 586017211}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_LocalScale: {x: 1.4, y: 1.4, z: 1.4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1454631778}
