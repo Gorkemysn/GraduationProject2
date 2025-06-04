@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -13,35 +12,34 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask wallLayer;
     private float wallJump;
     private float horizontalInput;
+
+    private StaminaSystem stamina;
+
     private void Awake()
     {
         rb2D = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
+        stamina = GetComponent<StaminaSystem>();
     }
 
     private void Update()
     {
-        //Player Movement
+        // Player Movement
         horizontalInput = Input.GetAxis("Horizontal");
 
-        //Player Flip Left-Right
-        if (Input.GetAxis("Horizontal") > 0.01f)
-        {
+        // Player Flip Left-Right
+        if (horizontalInput > 0.01f)
             transform.localScale = Vector3.one;
-        }
-        else if (Input.GetAxis("Horizontal") < -0.01f)
-        {
+        else if (horizontalInput < -0.01f)
             transform.localScale = new Vector3(-1, 1, 1);
-        }
 
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("ground", isGround());
 
-        //Player Walljump
+        // Wall jump logic
         if (wallJump > 0.2f)
         {
-
             rb2D.velocity = new Vector2(horizontalInput * speed, rb2D.velocity.y);
 
             if (onWall() && !isGround())
@@ -58,7 +56,6 @@ public class PlayerMovement : MonoBehaviour
             {
                 Jump();
             }
-
         }
         else
         {
@@ -68,18 +65,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        if (isGround())
+        if (isGround() && stamina.UseStamina(10f))
         {
             rb2D.velocity = new Vector2(rb2D.velocity.x, jumpPower);
             anim.SetTrigger("jump");
         }
-        else if (onWall() && !isGround())
+        else if (onWall() && !isGround() && stamina.UseStamina(10f))
         {
             if (horizontalInput == 0)
             {
                 rb2D.velocity = new Vector2(-Mathf.Sign(transform.localScale.x) * 10, 0);
                 transform.localScale = new Vector3(-Mathf.Sign(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-
             }
             else
             {
@@ -88,11 +84,13 @@ public class PlayerMovement : MonoBehaviour
             wallJump = 0;
         }
     }
+
     private bool isGround()
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
         return raycastHit.collider != null;
     }
+
     private bool onWall()
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0, new Vector2(transform.localScale.x, 0), 0.1f, wallLayer);
