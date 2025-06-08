@@ -65,7 +65,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        if (isGround() && stamina.UseStamina(10f))
+        if (isGround() && stamina.UseStamina(5f))
         {
             rb2D.velocity = new Vector2(rb2D.velocity.x, jumpPower);
             anim.SetTrigger("jump");
