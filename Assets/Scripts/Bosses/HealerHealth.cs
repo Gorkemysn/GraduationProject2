@@ -4,14 +4,12 @@ public class HealerHealth : MonoBehaviour
 {
     [SerializeField] private float maxHealth = 100f;
     public float currentHealth;
-    public HealthBar healthBar;
     private Animator anim;
     private bool dead;
 
     private void Awake()
     {
         currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
         anim = GetComponent<Animator>();
     }
 
@@ -20,7 +18,6 @@ public class HealerHealth : MonoBehaviour
         if (dead) return;
 
         currentHealth = Mathf.Clamp(currentHealth - damage, 0, maxHealth);
-        healthBar.SetHealth(currentHealth);
 
         if (currentHealth > 0)
         {

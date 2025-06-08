@@ -3022,7 +3022,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 30
   currentHealth: 30
-  healthBar: {fileID: 0}
 --- !u!114 &225789136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3167,14 +3166,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bossHealth: {fileID: 1094325895}
-  healAmount: 10
+  healAmount: 3
   healCooldown: 3
   teleportPoints:
   - {fileID: 1532247702}
   - {fileID: 1383105107}
-  - {fileID: 0}
-  - {fileID: 0}
-  teleportInterval: 5
+  teleportInterval: 3
 --- !u!1 &258080307
 GameObject:
   m_ObjectHideFlags: 0
@@ -3870,7 +3867,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attack: 1
-  playerDamage: 20
+  playerDamage: 10
   playerDamage2: 10
   attackRange: 2.5
   attackPoint: {fileID: 1694619741}
@@ -4051,7 +4048,7 @@ Transform:
   m_GameObject: {fileID: 392320755}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.69, y: -1.33, z: 0}
+  m_LocalPosition: {x: 53.4, y: -1.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9316,6 +9313,8 @@ MonoBehaviour:
   currentHealth: 100
   healthBar: {fileID: 15348605}
   soulReward: 25
+  healer: {fileID: 99715986}
+  healerDestroyDelay: 2
 --- !u!1 &1121275426
 GameObject:
   m_ObjectHideFlags: 0

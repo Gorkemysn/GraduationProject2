@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BossHealth : MonoBehaviour
@@ -11,7 +10,11 @@ public class BossHealth : MonoBehaviour
     private Animator anim;
     private bool dead;
 
-    public int soulReward = 5; // Kazandýracaðý soul
+    public int soulReward = 5;
+
+    [Header("Optional References")]
+    public GameObject healer; // Healer nesnesi atanacak
+    public float healerDestroyDelay = 3f; // Healer yok olma gecikmesi (Inspector'dan ayarlanabilir)
 
     private void Awake()
     {
@@ -36,16 +39,26 @@ public class BossHealth : MonoBehaviour
                 anim.SetTrigger("die");
                 GetComponent<EnemyDamage>().enabled = false;
                 dead = true;
+
+                // Healer'ý yok etme iþlemini gecikmeli baþlat
+                if (healer != null)
+                {
+                    StartCoroutine(DestroyHealerAfterDelay());
+                }
             }
             StartCoroutine(DestroyAfterDelay());
         }
     }
 
+    IEnumerator DestroyHealerAfterDelay()
+    {
+        yield return new WaitForSeconds(healerDestroyDelay);
+        Destroy(healer);
+    }
+
     IEnumerator DestroyAfterDelay()
     {
-        // SoulManager’a bildir
         SoulManager.instance.AddSouls(soulReward);
-
         yield return new WaitForSeconds(destroyDelay);
         Destroy(gameObject);
     }
