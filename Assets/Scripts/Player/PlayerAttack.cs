@@ -46,6 +46,7 @@ public class PlayerAttack : MonoBehaviour
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<EnemyHealth>()?.TakeDamage(playerDamage);
+            enemy.GetComponent<BossHealth>()?.TakeDamage(playerDamage);
         }
     }
 
@@ -57,6 +58,7 @@ public class PlayerAttack : MonoBehaviour
         foreach (Collider2D enemy in hitEnemies)
         {
             enemy.GetComponent<EnemyHealth>()?.TakeDamage(playerDamage2);
+            enemy.GetComponent<BossHealth>()?.TakeDamage(playerDamage);
         }
     }
 

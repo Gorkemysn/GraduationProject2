@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyHealth : MonoBehaviour
+public class BossHealth : MonoBehaviour
 {
-    [SerializeField] private float maxHealth;
+    [SerializeField] public float maxHealth;
     public float destroyDelay;
     public float currentHealth;
+    public HealthBar healthBar;
     private Animator anim;
     private bool dead;
 
@@ -15,13 +16,14 @@ public class EnemyHealth : MonoBehaviour
     private void Awake()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
         anim = GetComponent<Animator>();
     }
 
     public void TakeDamage(float _damage)
     {
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, maxHealth);
-        
+        healthBar.SetHealth(currentHealth);
 
         if (currentHealth > 0)
         {
