@@ -8887,8 +8887,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - "HELLOlkslka sakkas\u015Fas\u015Fk S\u015E\u015EA SA\u015E\u011FaslLA lasL"
-  - HELLO2222
+  - Are you a stranger around here? We don't see many faces on these lands anymore.
+  - If your path led you here, you're either desperate... or chasing fate.
+  - "Just ahead lies the Wounded Forest. It used to be full of life \u2014 we\u2019d
+    wake to birdsong. But now... shadows have fallen over it. The soil can't breathe."
+  - Some say ancient magics still echo there. Truth or tale, I can't say. But it's
+    clear someone like you wouldn't go there without a reason.
+  - "May your path be clear, stranger. Be careful \u2014 the darkness is always hungry."
   dialogueUI: {fileID: 965767508}
   dialogueText: {fileID: 1850733871}
 --- !u!61 &971434678
@@ -16180,7 +16185,7 @@ Transform:
   m_GameObject: {fileID: 1407999166}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.58, y: -1.28, z: 0}
+  m_LocalPosition: {x: 190.2, y: 8.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21876,8 +21881,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -21942,8 +21947,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 425, y: 75}
+  m_AnchoredPosition: {x: 2.7036, y: 2.7315}
+  m_SizeDelta: {x: 576.3981, y: 94.8445}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1870187555
 GameObject:
